@@ -2,7 +2,7 @@
   "@context":
     {
       "@version": 1.1,
-      "ftg": "https://sphereon-opensource.github.io/factom-vc-contexts/ftg/forest-guide-v1#",
+      "ftg": "https://sphereon-opensource.github.io/factom-vc-contexts/ftg/forest-transport-guide-v1#",
       "xsd": "http://www.w3.org/2001/XMLSchema#",
       "schema": "http://schema.org/",
       "issueDate": {"@id": "ftg:issueDate", "@type": "xsd:dateTime"},
