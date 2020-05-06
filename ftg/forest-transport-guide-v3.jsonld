@@ -3,17 +3,11 @@
     "@version": 1.1,
     "@protected": true,
 
-    "id": "@id",
-    "type": "@type",
-
     "ForestTransportGuide": {
       "@id": "https://sphereon-opensource.github.io/factom-vc-contexts/ftg/forest-transport-guide-v3#ForestTransportGuide",
       "@context": {
         "@version": 1.1,
         "@protected": true,
-
-        "id": "@id",
-        "type": "@type",
 
         "ftg": "https://sphereon-opensource.github.io/factom-vc-contexts/ftg/forest-transport-guide-v3#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
