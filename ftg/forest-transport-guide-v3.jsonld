@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+
+    "ForestTransportGuide": {
+      "@id": "https://sphereon-opensource.github.io/factom-vc-contexts/ftg/forest-transport-guide-v3#ForestTransportGuide",
+      "@context": {
+        "@version": 1.1,
+        "id": "@id",
+        "type": "@type",
+        "ftg": "https://sphereon-opensource.github.io/factom-vc-contexts/ftg/forest-transport-guide-v3#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "schema": "http://schema.org/",
+        "issueDate": {
+          "@id": "ftg:issueDate",
+          "@type": "xsd:dateTime"
+        },
+        "expirationDate": {
+          "@id": "ftg:expirationDate",
+          "@type": "xsd:dateTime"
+        },
+        "countryOfOrigin": {
+          "@id": "ftg:countryOfOrigin",
+          "@type": "schema:countryOfOrigin"
+        },
+        "gtfCreator": "ftg:gtfCreator",
+        "gtfCreatorGeoLocation": {
+          "@id": "ftg:gtCreatorGeoLocation",
+          "@type": "schema:GeoCoordinates"
+        },
+        "gtfCreatorEmail": {
+          "@id": "ftg:gtfCreatorEmail",
+          "@type": "schema:email"
+        },
+        "regionalForestAuthority": "ftg:regionalForestAuthority",
+        "resourceOrigin": "ftg:resourceOrigin",
+        "resourceNumber": "ftg:resourceNumber",
+        "fullHolderName": "ftg:fullHolderName",
+        "resolutionNumber": "ftg:resolutionNumber",
+        "department": "ftg:department",
+        "province": "ftg:province",
+        "district": "ftg:district",
+        "forestManagementPlan": "ftg:forestManagementPlan",
+        "gtfOwner": "ftg:gtfOwner",
+        "gtfRUCNumber": "ftg:gtfRUCNumber",
+        "gtfAddress": "ftg:gtfAddress",
+        "gtfDepartment": "ftg:gtfDepartment",
+        "gtfProvince": "ftg:gtfProvince",
+        "gtfDistrict": "ftg:gtfDistrict",
+        "gtfBillNumber": "ftg:gtfBillNumber",
+        "gtfProofOfPurchaseOrSaleType": "ftg:gtfProofOfPurchaseOrSaleType",
+        "addressee": "ftg:addressee",
+        "addresseeRUCNumber": "ftg:addresseeRUCNumber",
+        "addresseeAddress": "ftg:addresseeAddress",
+        "addresseeDepartment": "ftg:addresseeDepartment",
+        "addresseeProvince": "ftg:addresseeProvince",
+        "addresseeDistrict": "ftg:addresseeDistrict",
+        "carrierNumber": "ftg:carrierNumber",
+        "carrierTransportationType": "ftg:carrierTransportationType",
+        "carrierVehicle": "ftg:carrierVehicle",
+        "carrierLicensePlate": "ftg:carrierLicensePlate",
+        "carrierDriver": "ftg:carrierDriver",
+        "carrierIdentityDocumentType": "ftg:carrierIdentityDocumentType",
+        "carrierIdentityDocumentNumber": "ftg:carrierIdentityDocumentNumber",
+        "carrierDriversLicenseNumber": "ftg:carrierDriversLicenseNumber",
+        "productDetailsLogListNumber": "ftg:productDetailsLogListNumber",
+        "productDetailsRelatedGTFNumber": "ftg:productDetailsRelatedGTFNumber",
+        "productDetailsScientificNameGenus": "ftg:productDetailsScientificNameGenus",
+        "productDetailsScientificNameSpecies": "ftg:productDetailsScientificNameSpecies",
+        "productDetailsCommonName": "ftg:productDetailsCommonName",
+        "productDetailsType": "ftg:productDetailsType",
+        "packagingMethodDescription": "ftg:packagingMethodDescription",
+        "packagingMethodQuantity": "ftg:packagingMethodQuantity",
+        "productDetailsUnitOfMeasurement": "ftg:productDetailsUnitOfMeasurement",
+        "productDetailsTotal": "ftg:productDetailsTotal",
+        "logNumber": "ftg:logNumber"
+      }
+    }
+  }
+}
