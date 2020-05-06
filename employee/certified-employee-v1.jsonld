@@ -15,27 +15,39 @@
       "@id": "cec:expirationDate",
       "@type": "xsd:dateTime"
     },
-    "employeeEmail": {
-      "@id": "cec:gtfCreatorEmail",
-      "@type": "schema:email"
+    "Employee": {
+      "@id": "https://sphereon-opensource.github.io/factom-vc-contexts/employee/certified-employee-v1#Employee",
+      "@context": {
+        "employeeEmail": {
+          "@id": "cec:employeeEmail",
+          "@type": "schema:email"
+        },
+        "employeeFamilyName": "cec:familyName",
+        "employeeGender": "cec:employeeGender",
+        "employeeGivenName": "cec:employeeGivenName",
+        "employeeBirthCountry": "cec:employee",
+        "employeeBirthDate": {
+          "@id": "cec:employeeBirthDate",
+          "@type": "xsd:dateTime"
+        },
+        "employeeIdentityDocumentType": "cec:employeeIdentityDocumentType",
+        "employeeIdentityDocumentNumber": "cec:employeeIdentityDocumentNumber",
+        "employeeId": "cec:employeeId",
+        "employeeDepartment": "cec:employeeDepartment",
+        "employeeImage": "cec:employeeImage"
+      }
     },
-    "employeeFamilyName": "cec:familyName",
-    "employeeGender": "cec:employeeGender",
-    "employeeGivenName": "cec:employeeGivenName",
-    "employeeBirthCountry": "cec:employee",
-    "employeeBirthDate": {"@id": "cec:employeeBirthDate", "@type": "xsd:dateTime"},
-    "employeeIdentityDocumentType": "cec:employeeIdentityDocumentType",
-    "employeeIdentityDocumentNumber": "cec:employeeIdentityDocumentNumber",
-    "employeeId": "cec:employeeId",
-    "employeeDepartment": "cec:employeeDepartment",
-    "employeeImage": "cec:employeeImage",
-    "employer": "cec:employer",
-    "employerIdentificationNumber": "cec:employerIdentificationNumber",
-    "employerTaxNumber": "cec:employerTaxNumber",
-    "employerAddress": "cec:employerAddress",
-    "employerProvince": "cec:employerProvince",
-    "employerDistrict": "cec:employerDistrict",
-    "employerCountry": "cec:employerCountry",
-    "mrzInformation": "cec:mrzInformation"
+    "Employer": {
+      "@id": "https://sphereon-opensource.github.io/factom-vc-contexts/employee/certified-employee-v1#Employer",
+      "@context": {
+        "employerName": "cec:employerName",
+        "employerIdentificationNumber": "cec:employerIdentificationNumber",
+        "employerTaxNumber": "cec:employerTaxNumber",
+        "employerAddress": "cec:employerAddress",
+        "employerProvince": "cec:employerProvince",
+        "employerDistrict": "cec:employerDistrict",
+        "employerCountry": "cec:employerCountry"
+      }
+    }
   }
 }
