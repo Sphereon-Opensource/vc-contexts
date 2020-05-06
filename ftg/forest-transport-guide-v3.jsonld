@@ -18,20 +18,18 @@
         "ftg": "https://sphereon-opensource.github.io/factom-vc-contexts/ftg/forest-transport-guide-v3#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "schema": "http://schema.org/",
-
         "issueDate": {
           "@id": "ftg:issueDate",
-          "@type": "xsd:dateTime"
-        },
-        "expirationDate": {
-          "@id": "ftg:expirationDate",
           "@type": "xsd:dateTime"
         },
         "countryOfOrigin": {
           "@id": "ftg:countryOfOrigin",
           "@type": "schema:countryOfOrigin"
         },
-        "gtfCreator": "ftg:gtfCreator",
+        "gtfCreator": {
+          "@id": "ftg:gtfCreator",
+          "@type": "schema:countryOfOrigin"
+        },
         "gtfCreatorGeoLocation": {
           "@id": "ftg:gtCreatorGeoLocation",
           "@type": "schema:GeoCoordinates"
