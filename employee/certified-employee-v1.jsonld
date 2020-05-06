@@ -2,6 +2,7 @@
   "@context":
   {
     "@version": 1.1,
+    "@protected": true,
     "cec": "https://sphereon-opensource.github.io/factom-vc-contexts/employee/certified-employee-v1#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "schema": "http://schema.org/",
@@ -16,37 +17,49 @@
       "@type": "xsd:dateTime"
     },
     "Employee": {
-      "@id": "https://sphereon-opensource.github.io/factom-vc-contexts/employee/certified-employee-v1#Employee",
+      "@id": "cec:Employee",
       "@context": {
-        "employeeEmail": {
-          "@id": "cec:employeeEmail",
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "email": {
+          "@id": "cec:email",
           "@type": "schema:email"
         },
-        "employeeFamilyName": "cec:familyName",
-        "employeeGender": "cec:employeeGender",
-        "employeeGivenName": "cec:employeeGivenName",
-        "employeeBirthCountry": "cec:employee",
-        "employeeBirthDate": {
-          "@id": "cec:employeeBirthDate",
+        "familyName": "cec:familyName",
+        "gender": "cec:gender",
+        "givenName": "cec:givenName",
+        "birthCountry": "cec:birthCountry",
+        "birthDate": {
+          "@id": "cec:birthDate",
           "@type": "xsd:dateTime"
         },
-        "employeeIdentityDocumentType": "cec:employeeIdentityDocumentType",
-        "employeeIdentityDocumentNumber": "cec:employeeIdentityDocumentNumber",
+        "identityDocumentType": "cec:identityDocumentType",
+        "identityDocumentNumber": "cec:identityDocumentNumber",
         "employeeId": "cec:employeeId",
-        "employeeDepartment": "cec:employeeDepartment",
-        "employeeImage": "cec:employeeImage"
+        "department": "cec:department",
+        "image": "cec:image"
       }
     },
     "Employer": {
-      "@id": "https://sphereon-opensource.github.io/factom-vc-contexts/employee/certified-employee-v1#Employer",
+      "@id": "cec:Employer",
       "@context": {
-        "employerName": "cec:employerName",
-        "employerIdentificationNumber": "cec:employerIdentificationNumber",
-        "employerTaxNumber": "cec:employerTaxNumber",
-        "employerAddress": "cec:employerAddress",
-        "employerProvince": "cec:employerProvince",
-        "employerDistrict": "cec:employerDistrict",
-        "employerCountry": "cec:employerCountry"
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "name": "cec:name",
+        "identificationNumber": "cec:identificationNumber",
+        "taxNumber": "cec:taxNumber",
+        "address": "cec:address",
+        "province": "cec:province",
+        "district": "cec:district",
+        "country": "cec:country"
       }
     }
   }
