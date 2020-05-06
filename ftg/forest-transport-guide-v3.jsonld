@@ -2,205 +2,200 @@
   "@context": {
     "@version": 1.1,
     "@protected": true,
-
-    "ForestTransportGuide": {
-      "@id": "https://sphereon-opensource.github.io/factom-vc-contexts/ftg/forest-transport-guide-v3#ForestTransportGuide",
-      "@context": {
-        "@version": 1.1,
-        "@protected": true,
-
-        "ftg": "https://sphereon-opensource.github.io/factom-vc-contexts/ftg/forest-transport-guide-v3#",
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "schema": "http://schema.org/",
-        "issueDate": {
-          "@id": "ftg:issueDate",
-          "@type": "xsd:dateTime"
-        },
-        "countryOfOrigin": {
-          "@id": "ftg:countryOfOrigin",
-          "@type": "schema:countryOfOrigin"
-        },
-        "gtfCreator": {
-          "@id": "ftg:gtfCreator",
-          "@type": "schema:countryOfOrigin"
-        },
-        "gtfCreatorGeoLocation": {
-          "@id": "ftg:gtCreatorGeoLocation",
-          "@type": "schema:GeoCoordinates"
-        },
-        "gtfCreatorEmail": {
-          "@id": "ftg:gtfCreatorEmail",
-          "@type": "schema:email"
-        },
-        "regionalForestAuthority": {
-          "@id": "ftg:regionalForestAuthority",
-          "@type": "@id"
-        },
-        "resourceOrigin": {
-          "@id": "ftg:resourceOrigin",
-          "@type": "@id"
-        },
-        "resourceNumber": {
-          "@id": "ftg:resourceNumber",
-          "@type": "@id"
-        },
-        "fullHolderName": {
-          "@id": "ftg:fullHolderName",
-          "@type": "@id"
-        },
-        "resolutionNumber": {
-          "@id": "ftg:resolutionNumber",
-          "@type": "@id"
-        },
-        "department": {
-          "@id": "ftg:department",
-          "@type": "@id"
-        },
-        "province": {
-          "@id": "ftg:province",
-          "@type": "@id"
-        },
-        "district": {
-          "@id": "ftg:district",
-          "@type": "@id"
-        },
-        "forestManagementPlan": {
-          "@id": "ftg:forestManagementPlan",
-          "@type": "@id"
-        },
-        "gtfOwner": {
-          "@id": "ftg:gtfOwner",
-          "@type": "@id"
-        },
-        "gtfRUCNumber": {
-          "@id": "ftg:gtfRUCNumber",
-          "@type": "@id"
-        },
-        "gtfAddress": {
-          "@id": "ftg:gtfAddress",
-          "@type": "@id"
-        },
-        "gtfDepartment": {
-          "@id": "ftg:gtfDepartment",
-          "@type": "@id"
-        },
-        "gtfProvince": {
-          "@id": "ftg:gtfProvince",
-          "@type": "@id"
-        },
-        "gtfDistrict": {
-          "@id": "ftg:gtfDistrict",
-          "@type": "@id"
-        },
-        "gtfBillNumber": {
-          "@id": "ftg:gtfBillNumber",
-          "@type": "@id"
-        },
-        "gtfProofOfPurchaseOrSaleType": {
-          "@id": "ftg:gtfProofOfPurchaseOrSaleType",
-          "@type": "@id"
-        },
-        "addressee": {
-          "@id": "ftg:addressee",
-          "@type": "@id"
-        },
-        "addresseeRUCNumber": {
-          "@id": "ftg:addresseeRUCNumber",
-          "@type": "@id"
-        },
-        "addresseeAddress": {
-          "@id": "ftg:addresseeAddress",
-          "@type": "@id"
-        },
-        "addresseeDepartment": {
-          "@id": "ftg:addresseeDepartment",
-          "@type": "@id"
-        },
-        "addresseeProvince": {
-          "@id": "ftg:addresseeProvince",
-          "@type": "@id"
-        },
-        "addresseeDistrict": {
-          "@id": "ftg:addresseeDistrict",
-          "@type": "@id"
-        },
-        "carrierNumber": {
-          "@id": "ftg:carrierNumber",
-          "@type": "@id"
-        },
-        "carrierTransportationType": {
-          "@id": "ftg:carrierTransportationType",
-          "@type": "@id"
-        },
-        "carrierVehicle": {
-          "@id": "ftg:carrierVehicle",
-          "@type": "@id"
-        },
-        "carrierLicensePlate": {
-          "@id": "ftg:carrierLicensePlate",
-          "@type": "@id"
-        },
-        "carrierDriver": {
-          "@id": "ftg:carrierDriver",
-          "@type": "@id"
-        },
-        "carrierIdentityDocumentType": {
-          "@id": "ftg:carrierIdentityDocumentType",
-          "@type": "@id"
-        },
-        "carrierIdentityDocumentNumber": {
-          "@id": "ftg:carrierIdentityDocumentNumber",
-          "@type": "@id"
-        },
-        "carrierDriversLicenseNumber": {
-          "@id": "ftg:carrierDriversLicenseNumber",
-          "@type": "@id"
-        },
-        "productDetailsLogListNumber": {
-          "@id": "ftg:productDetailsLogListNumber",
-          "@type": "@id"
-        },
-        "productDetailsRelatedGTFNumber": {
-          "@id": "ftg:productDetailsRelatedGTFNumber",
-          "@type": "@id"
-        },
-        "productDetailsScientificNameGenus": {
-          "@id": "ftg:productDetailsScientificNameGenus",
-          "@type": "@id"
-        },
-        "productDetailsScientificNameSpecies": {
-          "@id": "ftg:productDetailsScientificNameSpecies",
-          "@type": "@id"
-        },
-        "productDetailsCommonName": {
-          "@id": "ftg:productDetailsCommonName",
-          "@type": "@id"
-        },
-        "productDetailsType": {
-          "@id": "ftg:productDetailsType",
-          "@type": "@id"
-        },
-        "packagingMethodDescription": {
-          "@id": "ftg:packagingMethodDescription",
-          "@type": "@id"
-        },
-        "packagingMethodQuantity": {
-          "@id": "ftg:packagingMethodQuantity",
-          "@type": "@id"
-        },
-        "productDetailsUnitOfMeasurement": {
-          "@id": "ftg:productDetailsUnitOfMeasurement",
-          "@type": "@id"
-        },
-        "productDetailsTotal": {
-          "@id": "ftg:productDetailsTotal",
-          "@type": "@id"
-        },
-        "logNumber": {
-          "@id": "ftg:logNumber",
-          "@type": "@id"
-        }
-      }
+    "ftg": "https://sphereon-opensource.github.io/factom-vc-contexts/ftg/forest-transport-guide-v3#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema": "http://schema.org/",
+    "ForestTransportGuide" : {
+      "@id": "ftg:ForestTransportGuide",
+      "@type": "@id"
+    },
+    "issueDate": {
+      "@id": "ftg:issueDate",
+      "@type": "xsd:dateTime"
+    },
+    "countryOfOrigin": {
+      "@id": "ftg:countryOfOrigin",
+      "@type": "schema:countryOfOrigin"
+    },
+    "gtfCreator": {
+      "@id": "ftg:gtfCreator",
+      "@type": "schema:countryOfOrigin"
+    },
+    "gtfCreatorGeoLocation": {
+      "@id": "ftg:gtCreatorGeoLocation",
+      "@type": "schema:GeoCoordinates"
+    },
+    "gtfCreatorEmail": {
+      "@id": "ftg:gtfCreatorEmail",
+      "@type": "schema:email"
+    },
+    "regionalForestAuthority": {
+      "@id": "ftg:regionalForestAuthority",
+      "@type": "@id"
+    },
+    "resourceOrigin": {
+      "@id": "ftg:resourceOrigin",
+      "@type": "@id"
+    },
+    "resourceNumber": {
+      "@id": "ftg:resourceNumber",
+      "@type": "@id"
+    },
+    "fullHolderName": {
+      "@id": "ftg:fullHolderName",
+      "@type": "@id"
+    },
+    "resolutionNumber": {
+      "@id": "ftg:resolutionNumber",
+      "@type": "@id"
+    },
+    "department": {
+      "@id": "ftg:department",
+      "@type": "@id"
+    },
+    "province": {
+      "@id": "ftg:province",
+      "@type": "@id"
+    },
+    "district": {
+      "@id": "ftg:district",
+      "@type": "@id"
+    },
+    "forestManagementPlan": {
+      "@id": "ftg:forestManagementPlan",
+      "@type": "@id"
+    },
+    "gtfOwner": {
+      "@id": "ftg:gtfOwner",
+      "@type": "@id"
+    },
+    "gtfRUCNumber": {
+      "@id": "ftg:gtfRUCNumber",
+      "@type": "@id"
+    },
+    "gtfAddress": {
+      "@id": "ftg:gtfAddress",
+      "@type": "@id"
+    },
+    "gtfDepartment": {
+      "@id": "ftg:gtfDepartment",
+      "@type": "@id"
+    },
+    "gtfProvince": {
+      "@id": "ftg:gtfProvince",
+      "@type": "@id"
+    },
+    "gtfDistrict": {
+      "@id": "ftg:gtfDistrict",
+      "@type": "@id"
+    },
+    "gtfBillNumber": {
+      "@id": "ftg:gtfBillNumber",
+      "@type": "@id"
+    },
+    "gtfProofOfPurchaseOrSaleType": {
+      "@id": "ftg:gtfProofOfPurchaseOrSaleType",
+      "@type": "@id"
+    },
+    "addressee": {
+      "@id": "ftg:addressee",
+      "@type": "@id"
+    },
+    "addresseeRUCNumber": {
+      "@id": "ftg:addresseeRUCNumber",
+      "@type": "@id"
+    },
+    "addresseeAddress": {
+      "@id": "ftg:addresseeAddress",
+      "@type": "@id"
+    },
+    "addresseeDepartment": {
+      "@id": "ftg:addresseeDepartment",
+      "@type": "@id"
+    },
+    "addresseeProvince": {
+      "@id": "ftg:addresseeProvince",
+      "@type": "@id"
+    },
+    "addresseeDistrict": {
+      "@id": "ftg:addresseeDistrict",
+      "@type": "@id"
+    },
+    "carrierNumber": {
+      "@id": "ftg:carrierNumber",
+      "@type": "@id"
+    },
+    "carrierTransportationType": {
+      "@id": "ftg:carrierTransportationType",
+      "@type": "@id"
+    },
+    "carrierVehicle": {
+      "@id": "ftg:carrierVehicle",
+      "@type": "@id"
+    },
+    "carrierLicensePlate": {
+      "@id": "ftg:carrierLicensePlate",
+      "@type": "@id"
+    },
+    "carrierDriver": {
+      "@id": "ftg:carrierDriver",
+      "@type": "@id"
+    },
+    "carrierIdentityDocumentType": {
+      "@id": "ftg:carrierIdentityDocumentType",
+      "@type": "@id"
+    },
+    "carrierIdentityDocumentNumber": {
+      "@id": "ftg:carrierIdentityDocumentNumber",
+      "@type": "@id"
+    },
+    "carrierDriversLicenseNumber": {
+      "@id": "ftg:carrierDriversLicenseNumber",
+      "@type": "@id"
+    },
+    "productDetailsLogListNumber": {
+      "@id": "ftg:productDetailsLogListNumber",
+      "@type": "@id"
+    },
+    "productDetailsRelatedGTFNumber": {
+      "@id": "ftg:productDetailsRelatedGTFNumber",
+      "@type": "@id"
+    },
+    "productDetailsScientificNameGenus": {
+      "@id": "ftg:productDetailsScientificNameGenus",
+      "@type": "@id"
+    },
+    "productDetailsScientificNameSpecies": {
+      "@id": "ftg:productDetailsScientificNameSpecies",
+      "@type": "@id"
+    },
+    "productDetailsCommonName": {
+      "@id": "ftg:productDetailsCommonName",
+      "@type": "@id"
+    },
+    "productDetailsType": {
+      "@id": "ftg:productDetailsType",
+      "@type": "@id"
+    },
+    "packagingMethodDescription": {
+      "@id": "ftg:packagingMethodDescription",
+      "@type": "@id"
+    },
+    "packagingMethodQuantity": {
+      "@id": "ftg:packagingMethodQuantity",
+      "@type": "@id"
+    },
+    "productDetailsUnitOfMeasurement": {
+      "@id": "ftg:productDetailsUnitOfMeasurement",
+      "@type": "@id"
+    },
+    "productDetailsTotal": {
+      "@id": "ftg:productDetailsTotal",
+      "@type": "@id"
+    },
+    "logNumber": {
+      "@id": "ftg:logNumber",
+      "@type": "@id"
     }
   }
 }
