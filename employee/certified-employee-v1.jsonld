@@ -1,0 +1,41 @@
+{
+  "@context":
+  {
+    "@version": 1.1,
+    "cec": "https://sphereon-opensource.github.io/factom-vc-contexts/employee/certified-employee-v1#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema": "http://schema.org/",
+
+    "CertifiedEmployeeCredential" : "cec:CertifiedEmployeeCredential",
+    "issueDate": {
+      "@id": "cec:issueDate",
+      "@type": "xsd:dateTime"
+    },
+    "expirationDate": {
+      "@id": "cec:expirationDate",
+      "@type": "xsd:dateTime"
+    },
+    "employeeEmail": {
+      "@id": "cec:gtfCreatorEmail",
+      "@type": "schema:email"
+    },
+    "employeeFamilyName": "cec:familyName",
+    "employeeGender": "cec:employeeGender",
+    "employeeGivenName": "cec:employeeGivenName",
+    "employeeBirthCountry": "cec:employee",
+    "employeeBirthDate": {"@id": "cec:employeeBirthDate", "@type": "xsd:dateTime"},
+    "employeeIdentityDocumentType": "cec:employeeIdentityDocumentType",
+    "employeeIdentityDocumentNumber": "cec:employeeIdentityDocumentNumber",
+    "employeeId": "cec:employeeId",
+    "employeeDepartment": "cec:employeeDepartment",
+    "employeeImage": "cec:employeeImage",
+    "employer": "cec:employer",
+    "employerIdentificationNumber": "cec:employerIdentificationNumber",
+    "employerTaxNumber": "cec:employerTaxNumber",
+    "employerAddress": "cec:employerAddress",
+    "employerProvince": "cec:employerProvince",
+    "employerDistrict": "cec:employerDistrict",
+    "employerCountry": "cec:employerCountry",
+    "mrzInformation": "cec:mrzInformation"
+  }
+}
