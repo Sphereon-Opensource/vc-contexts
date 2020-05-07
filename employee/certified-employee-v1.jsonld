@@ -7,7 +7,6 @@
     "schema": "http://schema.org/",
 
     "CertifiedEmployeeCredential" : "cec:CertifiedEmployeeCredential",
-    "Person": "schema:Person",
     "employer": "cec:Employer",
     "employee": "cec:Employee",
 
@@ -24,7 +23,7 @@
       "@context": {
         "@version": 1.1,
         "id": "@id",
-        "type": ["cec:Employee", "schema:Person"],
+        "type": "@type",
 
         "email": {
           "@id": "cec:email",
@@ -51,7 +50,7 @@
         "@version": 1.1,
 
         "id": "@id",
-        "type": ["cec:Employer", "schema:Person"],
+        "type": "@type",
 
         "name": "cec:name",
         "identificationNumber": "cec:identificationNumber",
