@@ -15,12 +15,12 @@
       "@id": "cec:expirationDate",
       "@type": "xsd:dateTime"
     },
-    "Employee": {
+    "employee": {
       "@id": "cec:Employee",
       "@context": {
         "@version": 1.1,
         "id": "@id",
-        "type": "@type",
+        "type": ["Employee", "schema:Person"],
 
         "email": {
           "@id": "cec:email",
@@ -41,13 +41,13 @@
         "image": "cec:image"
       }
     },
-    "Employer": {
+    "employer": {
       "@id": "cec:Employer",
       "@context": {
         "@version": 1.1,
 
         "id": "@id",
-        "type": "@type",
+        "type": ["Employer", "schema:Person"],
 
         "name": "cec:name",
         "identificationNumber": "cec:identificationNumber",
@@ -57,7 +57,6 @@
         "district": "cec:district",
         "country": "cec:country"
       }
-    },
-    "Person": "schema:Person"
+    }
   }
 }
