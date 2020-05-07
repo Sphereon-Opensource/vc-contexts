@@ -24,7 +24,7 @@
       "@context": {
         "@version": 1.1,
         "id": "@id",
-        "type": ["Employee", "Person"],
+        "type": ["cec:Employee", "schema:Person"],
 
         "email": {
           "@id": "cec:email",
@@ -51,7 +51,7 @@
         "@version": 1.1,
 
         "id": "@id",
-        "type": ["Employer", "Person"],
+        "type": ["cec:Employer", "schema:Person"],
 
         "name": "cec:name",
         "identificationNumber": "cec:identificationNumber",
