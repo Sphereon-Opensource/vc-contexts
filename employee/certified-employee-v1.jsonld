@@ -57,6 +57,7 @@
         "district": "cec:district",
         "country": "cec:country"
       }
-    }
+    },
+    "Person": "schema:Person"
   }
 }
