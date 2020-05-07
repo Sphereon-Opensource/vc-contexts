@@ -8,8 +8,8 @@
 
     "CertifiedEmployeeCredential" : "cec:CertifiedEmployeeCredential",
     "Person": "schema:Person",
-    "Employer": "cec:Employer",
-    "Employee": "cec:Employee",
+    "employer": "cec:Employer",
+    "employee": "cec:Employee",
 
     "issueDate": {
       "@id": "cec:issueDate",
@@ -19,7 +19,7 @@
       "@id": "cec:expirationDate",
       "@type": "xsd:dateTime"
     },
-    "employee": {
+    "Employee": {
       "@id": "cec:Employee",
       "@context": {
         "@version": 1.1,
@@ -45,7 +45,7 @@
         "image": "cec:image"
       }
     },
-    "employer": {
+    "Employer": {
       "@id": "cec:Employer",
       "@context": {
         "@version": 1.1,
