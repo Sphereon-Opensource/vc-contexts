@@ -7,6 +7,10 @@
     "schema": "http://schema.org/",
 
     "CertifiedEmployeeCredential" : "cec:CertifiedEmployeeCredential",
+    "Person": "schema:Person",
+    "Employer": "cec:Employer",
+    "Employee": "cec:Employee",
+
     "issueDate": {
       "@id": "cec:issueDate",
       "@type": "xsd:dateTime"
@@ -58,6 +62,5 @@
         "country": "cec:country"
       }
     },
-    "Person": "schema:Person"
   }
 }
