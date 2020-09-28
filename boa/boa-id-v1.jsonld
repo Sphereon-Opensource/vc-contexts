@@ -16,9 +16,17 @@
       "@id": "bid:validityDuration",
       "@type": "schema:duration"
     },
-    "name": {
-      "@id": "bid:name",
-      "@type": "schema:name"
+    "givenName": {
+      "@id": "bid:givenName",
+      "@type": "schema:givenName"
+    },
+    "familyName": {
+      "@id": "bid:familyName",
+      "@type": "schema:familyName"
+    },
+    "additionalName": {
+      "@id": "bid:additionalName",
+      "@type": "schema:additionalName"
     },
     "boaNumber": "bid:boaNumber",
     "idPhoto": {
@@ -27,9 +35,7 @@
     },
     "domain": "bid:domain",
     "employer": "bid:employer",
-    "locality": {
-      "@id": "bid:locality",
-      "@type": "schema:administrativeArea"
+    "locality": "bid:locality"
     }
   }
 }
