@@ -12,25 +12,24 @@
       "@id": "bid:issueDate",
       "@type": "xsd:dateTime"
     },
-
     "validityDuration": {
       "@id": "bid:validityDuration",
       "@type": "schema:duration"
     },
-
     "name": {
       "@id": "bid:name",
       "@type": "schema:name"
     },
-
     "boaNumber": "bid:boaNumber",
-
     "idPhoto": {
       "@id": "bid:idPhoto",
       "@type": "schema:image"
     },
-
     "domain": "bid:domain",
-
+    "employer": "bid:employer",
+    "locality": {
+      "@id": "bid:locality",
+      "@type": "schema:administrativeArea"
+    }
   }
 }
