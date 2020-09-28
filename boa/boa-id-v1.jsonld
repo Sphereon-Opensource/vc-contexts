@@ -14,8 +14,8 @@
     },
 
     "validityDuration": {
-      "@id": "bid:expirationDate",
-      "@type": "xsd:dateTime"
+      "@id": "bid:validityDuration",
+      "@type": "schema:duration"
     },
 
     "name": {
@@ -28,7 +28,7 @@
     "idPhoto": {
       "@id": "bid:idPhoto",
       "@type": "schema:image"
-    }
+    },
 
     "domain": "bid:domain",
 
