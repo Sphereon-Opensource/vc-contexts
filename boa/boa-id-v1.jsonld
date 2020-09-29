@@ -29,9 +29,9 @@
       "@id": "bid:additionalName",
       "@type": "schema:additionalName"
     },
-    "boaNumber": "bid:boaNumber",
-    "idPhoto": {
-      "@id": "bid:idPhoto",
+    "idNumber": "bid:idNumber",
+    "idImage": {
+      "@id": "bid:idImage",
       "@type": "schema:image"
     },
     "domain": "bid:domain",
