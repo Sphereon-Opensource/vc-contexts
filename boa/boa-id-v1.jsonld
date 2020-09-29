@@ -37,6 +37,5 @@
     "domain": "bid:domain",
     "employer": "bid:employer",
     "locality": "bid:locality"
-    }
   }
 }
