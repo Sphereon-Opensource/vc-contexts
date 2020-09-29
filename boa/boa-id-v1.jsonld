@@ -9,12 +9,12 @@
     "BoaIdCredential" : "bid:BoaIdCredential",
     "Person" : "schema:person",
 
-    "issueDate": {
-      "@id": "bid:issueDate",
+    "validFrom": {
+      "@id": "bid:validFrom",
       "@type": "xsd:dateTime"
     },
-    "expirationDate": {
-      "@id": "bid:expirationDate",
+    "validUntil": {
+      "@id": "bid:validUntil",
       "@type": "xsd:dateTime"
     },
     "givenName": {
