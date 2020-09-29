@@ -2,19 +2,20 @@
   "@context":
   {
     "@version": 1.1,
-    "bid": "https://sphereon-opensource.github.io/factom-vc-contexts/boa/boa-id-v1#",
+    "bid": "https://sphereon-opensource.github.io/vc-contexts/boa/boa-id-v1#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "schema": "http://schema.org/",
 
     "BoaIdCredential" : "bid:BoaIdCredential",
+    "Person" : "schema:person",
 
     "issueDate": {
       "@id": "bid:issueDate",
       "@type": "xsd:dateTime"
     },
-    "validityDuration": {
-      "@id": "bid:validityDuration",
-      "@type": "schema:duration"
+    "expirationDate": {
+      "@id": "bid:expirationDate",
+      "@type": "xsd:dateTime"
     },
     "givenName": {
       "@id": "bid:givenName",
