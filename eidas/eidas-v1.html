@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>eIDAS Signature Suites</title>
+</head>
+<body>
+<section id="CAdESRSASignature2020">
+    <h3><a href="#CAdESRSASignature2020">CAdESRSASignature2020</a></h3>
+    <p>
+        This class represents a linked data signature suite. See <a
+            href="https://w3c-ccg.github.io/ld-cryptosuite-registry/">Linked Data Signature</a>.
+    </p>
+    <dl>
+        <dt>Status</dt>
+        <dd property="vs:term_status">unstable</dd>
+        <dt>Expected properties</dt>
+        <dd>type, created, verificationMethod, proofPurpose, cades</dd>
+    </dl>
+    <h4>Properties</h4>
+    <h5 id="cades"><a href="#cades">cades</a></h5>
+    The CMS signature (enveloping) in PKCS7 format of the LD document.
+    <h4>Example</h4>
+    <pre>
+"proof": {
+    "type": "CAdESRSASignature2020",
+    "created": "2020-12-15T12:26:23Z",
+    "verificationMethod": "did:example:123#eidas-key",
+    "proofPurpose": "assertionMethod",
+    "cades": "-----BEGIN PKCS7-----\r\nMIIERgYJKoZIhvcNAQcC...i5i+4LlTEA\r\n-----END PKCS7-----\r\n"
+}
+    </pre>
+</section>
+</body>
+</html>

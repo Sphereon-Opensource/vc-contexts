@@ -1,0 +1,9 @@
+{
+  "@context": [{
+    "version": 1.1
+  }, "https://w3id.org/security/v2", {
+    "cad": "https://sphereon-opensource.github.io/vc-contexts/cades/eidas-v1#",
+    "CAdESRSASignature2020": "cad:CAdESRSASignature2020",
+    "cades": "cad:cades"
+  }]
+}
