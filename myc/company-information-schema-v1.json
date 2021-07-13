@@ -1,0 +1,38 @@
+{
+    "@context": [
+      "https://w3id.org/did/v1",
+      "https://w3id.org/security/v2",
+      "https://w3c-ccg.github.io/vc-json-schemas/context/vc-json-schema-v0.0.jsonld"
+    ],
+    "id": "https://w3c-ccg.github.io/vc-json-schemas/schema/cmtr/v.0.1/cmtr-schema-v0.1.json", //FIXME
+    "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/credential-schema.json", //FIXME
+    "modelVersion": "1.0",
+    "name": "CompanyInformationSchema",
+    "author": "did:key:z6MkfXT3gnptvkda3fmLVKHdJrm8gUnmx3faSd1iVeCAxYtP", //FIXME
+    "authored": "2021-07-09T00:00:00+00:00",
+    "schema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "description": "Company Information",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+		"ccnumber": {
+          "type": "integer",
+		  "maximum": 99999999
+        },
+		"entitylegalstatus": {
+          "enum": []
+        },
+		"registeredlocation": {
+          "type": "string"
+        },
+		"incorporationdate": {
+		  "type": "string"
+		}
+      },
+      "required": ["name", "entitylegalstatus", "registeredlocation", "incorporationdate"],
+      "additionalProperties": false
+    }
+}

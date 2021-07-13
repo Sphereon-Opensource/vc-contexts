@@ -1,0 +1,25 @@
+{
+  "@context":
+    {
+      "@version": 1.1,
+      "ui": "https://sphereon-opensource.github.io/vc-contexts/myc/ubo-information-v1#",
+	  "directshareholding": "ui:directshareholding",
+	  "indirectshareholding": "ui:indirectshareholding", 
+	  "firstnames": "ui:firstnames",  
+	  "middlename": "ui:middlename",
+	  "lastname": "ui:lastname",
+	  "dateofbirth": "ui:dateofbirth",
+	  "placeofbirth": "ui:placeofbirth",
+	  "countryofbirth": "ui:countryofbirth",
+	  "nationality": "ui:nationality",
+	  "tin": "ui:tin",
+	  "street": "ui:street",
+	  "housenumber": "ui:housenumber",
+	  "postalcode": "ui:postalcode",
+	  "cityofresidence": "ui:cityofresidence",
+	  "politicallyexposed": "ui:politicallyexposed",
+	  "ubodirector": "ui:ubodirector",
+	  "verifiedpasport": "ui:verifiedpasport",
+	  "verifiedbankaccount": "ui:verifiedbankaccount",
+    }
+}
