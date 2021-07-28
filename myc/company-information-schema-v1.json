@@ -23,7 +23,7 @@
 		  "maximum": 99999999
         },
 		"entitylegalstatus": {
-          "enum": [Eenmanszaak, Vennootschap onder firma, Commanditaire vennootschap, Maatschap, Besloten vennootschap, Naamloze vennootschap, Vereniging, Coöperatie en onderlinge waarborgmaatschappij, Stichting]
+          "enum": ["Eenmanszaak", "Vennootschap onder firma", "Commanditaire vennootschap", "Maatschap", "Besloten vennootschap", "Naamloze vennootschap", "Vereniging", "Coöperatie en onderlinge waarborgmaatschappij", "Stichting"]
         },
 		"registeredlocation": {
           "type": "string"
