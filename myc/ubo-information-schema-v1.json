@@ -4,11 +4,10 @@
       "https://w3id.org/security/v2",
       "https://w3c-ccg.github.io/vc-json-schemas/context/vc-json-schema-v0.0.jsonld"
     ],
-    "id": "https://w3c-ccg.github.io/vc-json-schemas/schema/cmtr/v.0.1/cmtr-schema-v0.1.json", //FIXME
-    "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/credential-schema.json", //FIXME
+    "id": "https://sphereon-opensource.github.io/factom-vc-contexts/myc/ubo-information-schema-v1.json",
+    "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/credential-schema.json",
     "modelVersion": "1.0",
     "name": "UBOInformationSchema",
-    "author": "did:key:z6MkfXT3gnptvkda3fmLVKHdJrm8gUnmx3faSd1iVeCAxYtP", //FIXME
     "authored": "2021-07-09T00:00:00+00:00",
     "schema": {
       "$schema": "http://json-schema.org/draft-07/schema#",
@@ -17,10 +16,12 @@
       "properties": {
         "directshareholding": {
           "type": "integer",
+		  "minimum": 0,
 		  "maximum": 100
         },
 		"indirectshareholding": {
           "type": "integer",
+		  "minimum": 0,
 		  "maximum": 100
         }
 		"firstnames": {
@@ -45,7 +46,7 @@
           "type": "string"
         },
 		"tin": {
-          "type": "integer"
+          "type": "integer",
         },
 		"street": {
           "type": "string"
