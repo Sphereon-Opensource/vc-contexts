@@ -4,35 +4,35 @@
       "https://w3id.org/security/v2",
       "https://w3c-ccg.github.io/vc-json-schemas/context/vc-json-schema-v0.0.jsonld"
     ],
-    "id": "https://sphereon-opensource.github.io/factom-vc-contexts/myc/company-information-schema-v1.json",
+    "id": "https://sphereon-opensource.github.io/factom-vc-contexts/myc/bedrijf-informatie-schema-v1.json",
     "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/credential-schema.json",
     "modelVersion": "1.0",
-    "name": "CompanyInformationSchema",
+    "name": "BedrijfInformatieSchema",
     "authored": "2021-07-09T00:00:00+00:00",
     "schema": {
       "$schema": "http://json-schema.org/draft-07/schema#",
-      "description": "Company Information",
+      "description": "Bedrijf Informatie",
       "type": "object",
       "properties": {
-        "name": {
+        "naam": {
           "type": "string"
         },
-		"ccnumber": {
+		"kvkNummer": {
           "type": "integer",
 		  "minimum": 0,
 		  "maximum": 99999999
         },
-		"entitylegalstatus": {
+		"rechtsvorm": {
           "enum": ["Eenmanszaak", "Vennootschap onder firma", "Commanditaire vennootschap", "Maatschap", "Besloten vennootschap", "Naamloze vennootschap", "Vereniging", "Coöperatie en onderlinge waarborgmaatschappij", "Stichting"]
         },
-		"registeredlocation": {
+		"volledigAdres": {
           "type": "string"
         },
-		"incorporationdate": {
+		"datumAkteOprichting": {
 		  "type": "string"
 		}
       },
-      "required": ["name", "entitylegalstatus", "registeredlocation", "incorporationdate"],
+      "required": ["naam", "kvkNummer", "rechtsvorm", "volledigAdres", "datumAkteOprichting"],
       "additionalProperties": false
     }
 }

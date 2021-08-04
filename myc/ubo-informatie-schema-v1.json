@@ -4,72 +4,72 @@
       "https://w3id.org/security/v2",
       "https://w3c-ccg.github.io/vc-json-schemas/context/vc-json-schema-v0.0.jsonld"
     ],
-    "id": "https://sphereon-opensource.github.io/factom-vc-contexts/myc/ubo-information-schema-v1.json",
+    "id": "https://sphereon-opensource.github.io/factom-vc-contexts/myc/ubo-informatie-schema-v1.json",
     "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/credential-schema.json",
     "modelVersion": "1.0",
-    "name": "UBOInformationSchema",
+    "name": "UBOInformatieSchema",
     "authored": "2021-07-09T00:00:00+00:00",
     "schema": {
       "$schema": "http://json-schema.org/draft-07/schema#",
-      "description": "UBO Information",
+      "description": "UBO Informatie",
       "type": "object",
       "properties": {
-        "directshareholding": {
+        "directbelang": {
           "type": "integer",
 		  "minimum": 0,
 		  "maximum": 100
         },
-		"indirectshareholding": {
+		"indirectbelang": {
           "type": "integer",
 		  "minimum": 0,
 		  "maximum": 100
         }
-		"firstnames": {
+		"voornamen": {
           "type": "string"
         },
-		"middlename": {
+		"voorvoegsel": {
           "type": "string"
         },
-		"lastname": {
+		"achternaam": {
           "type": "string"
         },
-		"dateofbirth": {
+		"geboortedatum": {
           "type": "string"
         },
-		"placeofbirth": {
+		"geboorteplaats": {
           "type": "string"
         },
-		"countryofbirth": {
+		"geboorteland": {
           "type": "string"
         },
-		"nationality": {
+		"nationaliteit": {
           "type": "string"
         },
 		"tin": {
           "type": "integer",
         },
-		"street": {
+		"straatnaam": {
           "type": "string"
         },
-		"housenumber": {
+		"huisnummer": {
           "type": "string"
         },
-		"postalcode": {
+		"postcode": {
           "type": "string"
         },
-		"cityofresidence": {
+		"plaats": {
           "type": "string"
         },
-		"politicallyexposed": {
+		"politiekpersoon": {
           "type": "boolean"
         },
-		"ubodirector": {
+		"ubobestuurder": {
           "type": "boolean"
         },
-		"verifiedpasport": {
+		"geverifeerdepaspoort": {
           "type": "boolean"
         },
-		"verifiedbankaccount": {
+		"geverifeerdebankrekening": {
           "type": "boolean"
         },
       },
