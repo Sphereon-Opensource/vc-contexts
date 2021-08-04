@@ -73,7 +73,7 @@
           "type": "boolean"
         },
       },
-      "required": [],
+      "required": ["directbelang", "indirectbelang", "voornamen", "achternaam", "geboortedatum", "geboorteplaats", "geboorteland", "nationaliteit", "tin", "straatnaam", "huisnummer", "postcode", "plaats", "politiekpersoon", "ubobestuurder", "geverifeerdepaspoort", "geverifeerdebankrekening"],
       "additionalProperties": false
     }
 }
