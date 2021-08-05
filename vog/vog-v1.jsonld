@@ -1,0 +1,33 @@
+{
+  "@context":
+  {
+    "@version": 1.1,
+    "vog": "https://sphereon-opensource.github.io/vc-contexts/vog/vog-v1#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "VOGCredential" : "vog:VOGCredential",
+    "afgifteDatum": {
+      "@id": "vog:afgifteDatum",
+      "@type": "xsd:date"
+    },
+    "onsKenmerk": "vog:onsKenmerk",
+    "geslachtsNaam": "vog:geslachtsNaam",
+    "tussenVoegsel": "vog:tussenVoegsel",
+    "voorNamen": "vog:voorNamen",
+    "geboorteDatum": {
+      "@id": "vog:geboorteDatum",
+      "@type": "xsd:date"
+    },
+    "geboortePlaats": "vog:geboortePlaats",
+    "geboorteLand": "vog:geboorteLand",
+    "functie": "vog:functie",
+    "doelOmschrijving": "vog:doelOmschrijving",
+    "belanghebbendeNaam": "vog:belanghebbendeNaam",
+    "functieAspectNrs" : {
+      "@id" : "vog:functieAspectNrs",
+      "@container" : "@set",
+      "@type" : "xsd:integer"
+    },
+    "screeningsProfielOmschrijving": "vog:screeningsProfielOmschrijving"
+  }
+}
