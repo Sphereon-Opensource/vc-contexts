@@ -6,7 +6,7 @@
 		"schema": "http://schema.org/",
 		"id": "schema:identifier",
 		"depositAddress": "wc:depositAddress"
-		"MonetaryAmount": "schema:MonetaryAmount"
+		"monetaryAmount": "schema:MonetaryAmount"
 		"recipientName": "schema:name"
     }
 }
