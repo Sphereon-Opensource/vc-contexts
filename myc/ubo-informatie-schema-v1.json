@@ -14,12 +14,12 @@
     "description": "UBO Informatie",
     "type": "object",
     "properties": {
-      "directbelang": {
+      "directBelang": {
         "type": "number",
         "minimum": 0,
         "maximum": 100
       },
-      "indirectbelang": {
+      "indirectBelang": {
         "type": "number",
         "minimum": 0,
         "maximum": 100
@@ -60,22 +60,22 @@
       "plaats": {
         "type": "string"
       },
-      "politiekpersoon": {
+      "politiekPersoon": {
         "type": "boolean"
       },
-      "ubobestuurder": {
+      "uboBestuurder": {
         "type": "boolean"
       },
-      "geverifeerdepaspoort": {
+      "geverifeerdePaspoort": {
         "type": "boolean"
       },
-      "geverifeerdebankrekening": {
+      "geverifeerdeBankrekening": {
         "type": "boolean"
       }
     },
     "required": [
-      "directbelang",
-      "indirectbelang",
+      "directBelang",
+      "indirectBelang",
       "voornamen",
       "achternaam",
       "geboortedatum",
@@ -87,10 +87,10 @@
       "huisnummer",
       "postcode",
       "plaats",
-      "politiekpersoon",
-      "ubobestuurder",
-      "geverifeerdepaspoort",
-      "geverifeerdebankrekening"
+      "politiekPersoon",
+      "uboBestuurder",
+      "geverifeerdePaspoort",
+      "geverifeerdeBankrekening"
     ],
     "additionalProperties": false
   }
