@@ -1,12 +1,11 @@
 {
-  "@context":
-    {
-      "@version": 1.1,
-      "bi": "https://sphereon-opensource.github.io/vc-contexts/myc/bedrijfsinformatie-v1#",
-	    "naam": "bi:naam",
-	    "kvkNummer": "bi:kvkNummer",
-	    "rechtsvorm": "bi:rechtsvorm",
-	    "volledigAdres": "bi:volledigAdres",
-	    "datumAkteOprichting": "bi:datumAkteOprichting"
-    }
+  "@context": {
+    "@version": 1.1,
+    "bi": "https://sphereon-opensource.github.io/vc-contexts/myc/bedrijfsinformatie-v1#",
+    "naam": "bi:naam",
+    "kvkNummer": "bi:kvkNummer",
+    "rechtsvorm": "bi:rechtsvorm",
+    "volledigAdres": "bi:volledigAdres",
+    "datumAkteOprichting": "bi:datumAkteOprichting"
+  }
 }

@@ -1,79 +1,97 @@
 {
-    "@context": [
-      "https://w3id.org/did/v1",
-      "https://w3id.org/security/v2",
-      "https://w3c-ccg.github.io/vc-json-schemas/context/vc-json-schema-v0.0.jsonld"
-    ],
-    "id": "https://sphereon-opensource.github.io/vc-contexts/myc/ubo-informatie-schema-v1.json",
-    "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/credential-schema.json",
-    "modelVersion": "1.0",
-    "name": "UBOInformatieSchema",
-    "authored": "2021-07-09T00:00:00+00:00",
-    "schema": {
-      "$schema": "http://json-schema.org/draft-07/schema#",
-      "description": "UBO Informatie",
-      "type": "object",
-      "properties": {
-        "directbelang": {
-          "type": "number",
-		      "minimum": 0,
-		      "maximum": 100
-        },
-		    "indirectbelang": {
-          "type": "number",
-		      "minimum": 0,
-		      "maximum": 100
-          },
-        "voornamen": {
-          "type": "string"
-        },
-		    "voorvoegsel": {
-          "type": "string"
-        },
-		    "achternaam": {
-          "type": "string"
-        },
-		    "geboortedatum": {
-          "type": "string"
-        },
-		    "geboorteplaats": {
-          "type": "string"
-        },
-		    "geboorteland": {
-          "type": "string"
-        },
-		    "nationaliteit": {
-          "type": "string"
-        },
-		    "tin": {
-          "type": "integer"
-        },
-		    "straatnaam": {
-          "type": "string"
-        },
-		    "huisnummer": {
-          "type": "string"
-        },
-		    "postcode": {
-          "type": "string"
-        },
-		    "plaats": {
-          "type": "string"
-        },
-		    "politiekpersoon": {
-          "type": "boolean"
-        },
-		    "ubobestuurder": {
-          "type": "boolean"
-        },
-		    "geverifeerdepaspoort": {
-          "type": "boolean"
-        },
-		    "geverifeerdebankrekening": {
-          "type": "boolean"
-        }
+  "@context": [
+    "https://w3id.org/did/v1",
+    "https://w3id.org/security/v2",
+    "https://w3c-ccg.github.io/vc-json-schemas/context/vc-json-schema-v0.0.jsonld"
+  ],
+  "id": "https://sphereon-opensource.github.io/vc-contexts/myc/ubo-informatie-schema-v1.json",
+  "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/credential-schema.json",
+  "modelVersion": "1.0",
+  "name": "UBOInformatieSchema",
+  "authored": "2021-07-09T00:00:00+00:00",
+  "schema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "UBO Informatie",
+    "type": "object",
+    "properties": {
+      "directbelang": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100
       },
-      "required": ["directbelang", "indirectbelang", "voornamen", "achternaam", "geboortedatum", "geboorteplaats", "geboorteland", "nationaliteit", "tin", "straatnaam", "huisnummer", "postcode", "plaats", "politiekpersoon", "ubobestuurder", "geverifeerdepaspoort", "geverifeerdebankrekening"],
-      "additionalProperties": false
-    }
+      "indirectbelang": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "voornamen": {
+        "type": "string"
+      },
+      "voorvoegsel": {
+        "type": "string"
+      },
+      "achternaam": {
+        "type": "string"
+      },
+      "geboortedatum": {
+        "type": "string"
+      },
+      "geboorteplaats": {
+        "type": "string"
+      },
+      "geboorteland": {
+        "type": "string"
+      },
+      "nationaliteit": {
+        "type": "string"
+      },
+      "tin": {
+        "type": "integer"
+      },
+      "straatnaam": {
+        "type": "string"
+      },
+      "huisnummer": {
+        "type": "string"
+      },
+      "postcode": {
+        "type": "string"
+      },
+      "plaats": {
+        "type": "string"
+      },
+      "politiekpersoon": {
+        "type": "boolean"
+      },
+      "ubobestuurder": {
+        "type": "boolean"
+      },
+      "geverifeerdepaspoort": {
+        "type": "boolean"
+      },
+      "geverifeerdebankrekening": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "directbelang",
+      "indirectbelang",
+      "voornamen",
+      "achternaam",
+      "geboortedatum",
+      "geboorteplaats",
+      "geboorteland",
+      "nationaliteit",
+      "tin",
+      "straatnaam",
+      "huisnummer",
+      "postcode",
+      "plaats",
+      "politiekpersoon",
+      "ubobestuurder",
+      "geverifeerdepaspoort",
+      "geverifeerdebankrekening"
+    ],
+    "additionalProperties": false
+  }
 }

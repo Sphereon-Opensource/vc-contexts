@@ -1,25 +1,24 @@
 {
-  "@context":
-    {
-      "@version": 1.1,
-      "ui": "https://sphereon-opensource.github.io/vc-contexts/myc/ubo-informatie-v1#",
-	    "directbelang": "ui:directbelang",
-	    "indirectbelang": "ui:indirectbelang",
-	    "voornamen": "ui:voornamen",
-	    "voorvoegsel": "ui:voorvoegsel",
-	    "achternaam": "ui:achternaam",
-	    "geboortedatum": "ui:geboortedatum",
-	    "geboorteplaats": "ui:geboorteplaats",
-	    "geboorteland": "ui:geboorteland",
-	    "nationaliteit": "ui:nationaliteit",
-	    "tin": "ui:tin",
-	    "straatnaam": "ui:straatnaam",
-	    "huisnummer": "ui:huisnummer",
-	    "postcode": "ui:postcode",
-	    "plaats": "ui:plaats",
-	    "politiekpersoon": "ui:politiekpersoon",
-	    "ubobestuurder": "ui:ubobestuurder",
-	    "geverifeerdepaspoort": "ui:geverifeerdepaspoort",
-	    "geverifeerdebankrekening": "ui:geverifeerdebankrekening",
-    }
+  "@context": {
+    "@version": 1.1,
+    "ui": "https://sphereon-opensource.github.io/vc-contexts/myc/ubo-informatie-v1#",
+    "directbelang": "ui:directbelang",
+    "indirectbelang": "ui:indirectbelang",
+    "voornamen": "ui:voornamen",
+    "voorvoegsel": "ui:voorvoegsel",
+    "achternaam": "ui:achternaam",
+    "geboortedatum": "ui:geboortedatum",
+    "geboorteplaats": "ui:geboorteplaats",
+    "geboorteland": "ui:geboorteland",
+    "nationaliteit": "ui:nationaliteit",
+    "tin": "ui:tin",
+    "straatnaam": "ui:straatnaam",
+    "huisnummer": "ui:huisnummer",
+    "postcode": "ui:postcode",
+    "plaats": "ui:plaats",
+    "politiekpersoon": "ui:politiekpersoon",
+    "ubobestuurder": "ui:ubobestuurder",
+    "geverifeerdepaspoort": "ui:geverifeerdepaspoort",
+    "geverifeerdebankrekening": "ui:geverifeerdebankrekening"
+  }
 }
