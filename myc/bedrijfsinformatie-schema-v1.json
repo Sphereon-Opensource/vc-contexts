@@ -1,0 +1,115 @@
+{
+  "@context": [
+    "https://w3id.org/did/v1",
+    "https://w3id.org/security/v2",
+    "https://w3c-ccg.github.io/vc-json-schemas/context/vc-json-schema-v0.0.jsonld"
+  ],
+  "id": "https://sphereon-opensource.github.io/vc-contexts/myc/bedrijfsinformatie-schema-v1.json",
+  "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/credential-schema.json",
+  "modelVersion": "1.0",
+  "name": "BedrijfsinformatieSchema",
+  "authored": "2021-07-09T00:00:00+00:00",
+  "schema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "Bedrijfsinformatie",
+    "type": "object",
+    "properties": {
+      "naam": {
+        "type": "string"
+      },
+      "kvkNummer": {
+        "type": "string",
+        "pattern": "[0-9]{8}"
+      },
+      "rechtsvorm": {
+        "enum": [
+          "Eenmanszaak",
+          "Vennootschap onder firma",
+          "Commanditaire vennootschap",
+          "Maatschap",
+          "Besloten vennootschap",
+          "Naamloze vennootschap",
+          "Vereniging",
+          "Coöperatie en onderlinge waarborgmaatschappij",
+          "Stichting"
+        ]
+      },
+      "straatnaam": {
+        "type": "string"
+      },
+      "aanduidingBijHuisnummer": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "omschrijving": {
+            "type": "string"
+          },
+          "referentieType": {
+            "type": "string"
+          }
+        }
+      },
+      "huisnummer": {
+        "type": "integer"
+      },
+      "huisnummerToevoeging": {
+        "type": "string"
+      },
+      "huisletter": {
+        "type": "string",
+        "pattern": "[a-zA-Z]"
+      },
+      "postbusnummer": {
+        "type": "integer"
+      },
+      "postcode": {
+        "type": "object",
+        "properties": {
+          "cijfercombinatie": {
+            "type": "string",
+            "pattern": "[0-9]{4}"
+          },
+          "lettercombinatie": {
+            "type": "string",
+            "pattern": "[a-zA-Z]{2}"
+          }
+        }
+      },
+      "plaats": {
+        "type": "string"
+      },
+      "bagId": {
+        "type": "object",
+        "properties": {
+          "identificatieNummeraanduiding": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 16
+          },
+          "identificatieAdresseerbaarObject": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 16
+          }
+        }
+      },
+      "datumAkteOprichting": {
+        "type": "string",
+        "pattern": "[0-9]{8}"
+      }
+    },
+    "required": [
+      "naam",
+      "kvkNummer",
+      "rechtsvorm",
+      "straatnaam",
+      "huisnummer",
+      "postcode",
+      "plaats",
+      "datumAkteOprichting"
+    ],
+    "additionalProperties": false
+  }
+}

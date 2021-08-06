@@ -1,0 +1,42 @@
+<h1>Bedrijf Informatie Context</h1>
+
+<ul>
+  <li><a href="bedrijfsinformatie-v1.jsonld">[Latest JSON-LD Context]</a></li>
+</ul>
+
+<h1>Terminologie</h1>
+
+<h4 id="naam"><a href="#naam">naam</a></h4>
+
+De naam van de organisatie.
+
+<h4 id="kvkNummer"><a href="#kvkNummer">kvkNummer</a></h4>
+
+Het registratie nummer van de kamer van koophandel voor de organisatie.
+
+<h4 id="rechtsvorm"><a href="#rechtsvorm">rechtsvorm</a></h4>
+
+De rechtsvorm van de organisatie.
+
+De rechtsvorm worden geclassificeerd door de kamer van koophandel. Momenteel zijn er 9 mogelijke rechtsvormen:
+<ol type="I">
+  <li>Eenmanszaak</li>
+  <li>Vennootschap onder firma</li>
+  <li>Commanditaire vennootschap</li>
+  <li>Maatschap</li>
+  <li>Besloten vennootschap</li>
+  <li>Naamloze vennootschap</li>
+  <li>Vereniging</li>
+  <li>Coöperatie en onderlinge waarborgmaatschappij</li>
+  <li>Stichting</li>
+</ol>
+
+<h4 id="volledigAdres"><a href="#volledigAdres">volledigAdres</a></h4>
+
+De plaats van inschrijving voor de kamer van koophandel van de organisatie.
+
+<h4 id="datumAkteOprichting"><a href="#datumAkteOprichting">datumAkteOprichting</a></h4>
+
+De datum van oprichting van de organisatie.
+
+Een datum heeft een vast formaat: 8 posities, met als invulling jjjjmmdd (jaar-maand-dag), waarbij alleen cijfers zijn toegestaan. Wanneer een gedeelte van de datum onbekend is, wordt dat gerepresenteerd door nullen. De mogelijke waarden van datum zijn: jjjjmmdd volledige datum jjjjmm00 dag onbekend jjjj0000 maand onbekend 00000000 datum onbekend, standaardwaarde.
