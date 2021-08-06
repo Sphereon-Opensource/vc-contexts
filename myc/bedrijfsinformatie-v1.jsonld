@@ -6,7 +6,15 @@
 	    "naam": "bi:naam",
 	    "kvkNummer": "bi:kvkNummer",
 	    "rechtsvorm": "bi:rechtsvorm",
-	    "volledigAdres": "bi:volledigAdres",
+	    "straatnaam": "bi:straatnaam",
+	    "aanduidingBijHuisnummer": bi:aanduidingBijHuisnummer,
+	    "huisnummer: bi:huisnummer",
+	    "huisnummerToevoeging": "bi:huisnummerToevoeging",
+	    "huisletter": "bi:huisletter",
+	    "postbusnummer": "bi:postbusnummer",
+	    "postcode": "bi:postcode",
+	    "plaats": "bi:plaats",
+	    "bagId": "bi:bagId",
 	    "datumAkteOprichting": "bi:datumAkteOprichting"
     }
 }
