@@ -6,7 +6,7 @@
     "kvkNummer": "bi:kvkNummer",
     "rechtsvorm": "bi:rechtsvorm",
     "straatnaam": "bi:straatnaam",
-    "aanduidingBijHuisnummer": bi:aanduidingBijHuisnummer,
+    "aanduidingBijHuisnummer": "bi:aanduidingBijHuisnummer",
     "huisnummer: bi:huisnummer",
     "huisnummerToevoeging": "bi:huisnummerToevoeging",
     "huisletter": "bi:huisletter",
