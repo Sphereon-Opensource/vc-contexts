@@ -7,7 +7,7 @@
 
 		"LESWinnerCheque" : "wc:LESWinnerCheque",
 
-		"id": "schema:identifier",
+		"chequeId": "schema:identifier",
 		"depositAddress": "wc:depositAddress",
 		"monetaryAmount": "schema:MonetaryAmount",
 		"recipientName": "schema:name"
