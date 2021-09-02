@@ -4,9 +4,12 @@
 		"@version": 1.1,
 		"wc": "https://sphereon-opensource.github.io/vc-contexts/les/winnercheque-v1#",
 		"schema": "http://schema.org/",
+
+		"LESWinnerCheque" : "wc:LESWinnerCheque",
+
 		"id": "schema:identifier",
-		"depositAddress": "wc:depositAddress"
-		"monetaryAmount": "schema:MonetaryAmount"
+		"depositAddress": "wc:depositAddress",
+		"monetaryAmount": "schema:MonetaryAmount",
 		"recipientName": "schema:name"
     }
 }
