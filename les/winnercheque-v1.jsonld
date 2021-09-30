@@ -10,6 +10,7 @@
 		"chequeId": "schema:identifier",
 		"depositAddress": "wc:depositAddress",
 		"monetaryAmount": "schema:MonetaryAmount",
+		"monetaryAmountInWords": "schema:MonetaryAmountInWords",
 		"recipientName": "schema:name"
     }
 }
