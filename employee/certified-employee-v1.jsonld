@@ -2,9 +2,9 @@
   "@context":
   {
     "@version": 1.1,
-    "cec": "https://sphereon-opensource.github.io/factom-vc-contexts/employee/certified-employee-v1#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "schema": "http://schema.org/",
+    "cec": "https://sphereon-opensource.github.io/vc-contexts/employee/certified-employee-v1#",
+    "xsd": "https://www.w3.org/2001/XMLSchema#",
+    "schema": "https://schema.org/",
 
     "CertifiedEmployeeCredential" : "cec:CertifiedEmployeeCredential",
     "employer": "cec:Employer",

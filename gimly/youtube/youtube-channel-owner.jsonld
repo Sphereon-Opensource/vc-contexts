@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+
+    "YoutubeChannelOwner": {
+      "@id": "https://sphereon-opensource.github.io/vc-contexts/gimly/youtube/youtube-channel-owner#YoutubeChannelOwner",
+
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "yco": "https://sphereon-opensource.github.io/vc-contexts/gimly/youtube/youtube-channel-owner#",
+        "schema": "https://schema.org/",
+
+        "firstName": "yco:firstName",
+        "lastName": "yco:lastName",
+        "youtubeChannelName": "yco:youtubeChannelName",
+        "youtubeChannelId": "yco:youtubeChannelId",
+        "youtubeChannelCreationDate": {
+          "@id": "yco:youtubeChannelCreationDate",
+          "@type": "schema:DateTime"
+        },
+        "youtubeChannelImageURL": {
+          "@id": "yco:youtubeChannelImageURL",
+          "@type": "schema:URL"
+        },
+        "youtubeChannelURL": {
+          "@id": "yco:youtubeChannelURL",
+          "@type": "schema:URL"
+        }
+      }
+    }
+  }
+}
