@@ -22,14 +22,6 @@
         "by": {
           "@id": "yvo:by",
           "@type": "schema:URL"
-        },
-        "issuedOn": {
-          "@id": "yvo:issuedOn",
-          "@type": "schema:DateTime"
-        },
-        "issuedBy": {
-          "@id": "yvo:issuedBy",
-          "@type": "schema:URL"
         }
       }
     }
