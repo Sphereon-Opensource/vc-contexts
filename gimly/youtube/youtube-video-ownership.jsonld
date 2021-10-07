@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+
+    "YoutubeVideoOwnership": {
+      "@id": "https://sphereon-opensource.github.io/vc-contexts/gimly/youtube/youtube-video-ownership#YoutubeVideoOwnership",
+
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "yvo": "https://sphereon-opensource.github.io/vc-contexts/gimly/youtube/youtube-video-ownership#",
+        "schema": "https://schema.org/",
+
+        "name": "yvo:name",
+        "youtubeVideo": "yvo:youtubeVideo",
+        "forManifestation": "yvo:forManifestation",
+        "by": {
+          "@id": "yvo:by",
+          "@type": "schema:URL"
+        },
+        "issuedOn": {
+          "@id": "yvo:issuedOn",
+          "@type": "schema:DateTime"
+        },
+        "issuedBy": {
+          "@id": "yvo:issuedBy",
+          "@type": "schema:URL"
+        }
+      }
+    }
+  }
+}
