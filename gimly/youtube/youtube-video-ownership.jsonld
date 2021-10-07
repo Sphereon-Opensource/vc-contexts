@@ -22,6 +22,10 @@
         "by": {
           "@id": "yvo:by",
           "@type": "schema:URL"
+        },
+        "registered": {
+          "@id": "yvo:registered",
+          "@type": "schema:URL"
         }
       }
     }
