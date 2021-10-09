@@ -24,7 +24,8 @@
         },
         "geboorteplaats": "vog:geboorteplaats",
         "geboorteland": "vog:geboorteland",
-        "functie": "vog:functie",
+        "bsn": "vog:bsn",
+
         "kenmerken": {
           "@id": "https://sphereon-opensource.github.io/vc-contexts/vog/vog-v1#kenmerken",
           "@context": {
@@ -43,7 +44,8 @@
             "id": "@id",
             "type": "@type",
             "waarde": "vog:doelWaarde",
-            "omschrijving": "vog:doelOmschrijving"
+            "omschrijving": "vog:doelOmschrijving",
+            "functie": "vog:doelFunctie"
           }
         },
         "belanghebbende": {

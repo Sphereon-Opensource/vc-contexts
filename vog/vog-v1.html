@@ -1,60 +1,102 @@
+<html>
+<body style="font-family: Arial">
 <h1>VOG Context</h1>
 
 <ul>
-    <li><a href="boa-id-v1.jsonld">[Laatste JSON-LD Context]</a></li>
+  <li><a href="vog-v1.jsonld">[Laatste JSON-LD Context]</a></li>
 </ul>
 
 <h1>Terminologie</h1>
 
-<h4 id="afgifteDatum"><a href="#afgifteDatum">afgifteDatum</a></h4>
-
+<h4 id="afgiftedatum"><a href="#afgiftedatum">afgiftedatum</a></h4>
 De datum van VOG afgifte (verplicht)
 
-<h4 id="onsKenmerk"><a href="#onsKenmerk">onsKenmerk</a></h4>
 
-Zaak-/aanvraagnummer gebruikt als ons Kenmerk door Justis (verplicht)
-
-<h4 id="geslachtsNaam"><a href="#geslachtsNaam">geslachtsNaam</a></h4>
-
+<h4 id="geslachtsnaam"><a href="#geslachtsnaam">geslachtsnaam</a></h4>
 De geslachtsnaam van de onderzoekspersoon (verplicht)
 
-<h4 id="tussenVoegsel"><a href="#tussenVoegsel">tussenVoegsel</a></h4>
-
+<h4 id="tussenvoegsels"><a href="#tussenvoegsels">tussenvoegsels</a></h4>
 Voorvoegsel geslachtsnaam onderzoekspersoon (optioneel)
 
-<h4 id="voorNamen"><a href="#voorNamen">voorNamen</a></h4>
+<h4 id="voornamen"><a href="#voornamen">voornamen</a></h4>
+voornamen van de onderzoekspersoon (verplicht)
 
-Voornamen van de onderzoekspersoon (verplicht)
+<h4 id="geboortedatum"><a href="#geboortedatum">geboortedatum</a></h4>
+geboortedatum van de onderzoekspersoon (verplicht)
 
-<h4 id="geboorteDatum"><a href="#geboorteDatum">geboorteDatum</a></h4>
+<h4 id="geboorteplaats"><a href="#geboorteplaats">geboorteplaats</a></h4>
+geboorteplaats van de onderzoekspersoon (verplicht).
+Indien geboorteland = NL, dan geboorte gemeentenaam anders geboorteplaatsnaam
 
-Geboortedatum van de onderzoekspersoon (verplicht)
+<h4 id="geboorteland"><a href="#geboorteland">geboorteland</a></h4>
+geboorteland van de onderzoekspersoon (verplicht)
 
-<h4 id="geboortePlaats"><a href="#geboortePlaats">geboortePlaats</a></h4>
+<h4 id="bsn"><a href="#bsn">bsn</a></h4>
+BSN nummer
 
-Geboorteplaats van de onderzoekspersoon (verplicht).
-Indien geboorteLand = NL, dan geboorte gemeentenaam anders geboorteplaatsnaam
+<h4 id="kenmerken"><a href="#kenmerken">kenmerken</a></h4>
+Kenmerken object, momenteel alleen justisKenmerk
+<ul>
+  <li>
+    <h5 id="justisKenmerk"><a href="#justisKenmerk">justis</a></h5>
+    Zaak-/aanvraagnummer gebruikt als ons Kenmerk door Justis (verplicht)
+  </li>
+</ul>
 
-<h4 id="geboorteLand"><a href="#geboorteLand">geboorteLand</a></h4>
+<h4 id="doel"><a href="#doel">doel</a></h4>
+Doel object
+<ul>
+  <li>
+    <h5 id="doelWaarde"><a href="#doelWaarde">waarde</a></h5>
+    Het doel (de waarde) zelf
+  </li>
+  <li>
+    <h5 id="doelOmschrijving"><a href="#doelOmschrijving">omschrijving</a></h5>
+    Omschrijving van het doel waarvoor de VOG is aangevraagd. (alleen indien doel ongelijk aan werkrelatie)
+  </li>
+  <li>
+    <h5 id="doelFunctie"><a href="#doelFunctie">functie</a></h5>
+    Functie waarvoor VOG vereist is (alleen indien doel gelijk aan werkrelatie)
+  </li>
+</ul>
 
-Geboorteland van de onderzoekspersoon (verplicht)
 
-<h4 id="functie"><a href="#functie">functie</a></h4>
+<h4 id="belanghebbende"><a href="#belanghebbende">belanghebbende</a></h4>
+Belanghebbende object
+<ul>
+  <li>
+    <h5 id="belanghebbendeNaam"><a href="#belanghebbendeNaam">naam</a></h5>
+    Naam van de belanghebbende die een VOG vereist
+  </li>
+  <li>
+    <h5 id="belanghebbendeKvK"><a href="#belanghebbendeKvK">KvK</a></h5>
+    Kamer van Koophandel nummer van de belanghebbende die een VOG vereist
+  </li>
+</ul>
 
-Functie waarvoor VOG vereist is (alleen indien doel gelijk aan werkrelatie)
+<h4 id="functieAspecten"><a href="#functieAspecten">functieAspecten</a></h4>
+FunctieAspecten lijst
+<ul>
+  <li>
+    <h5 id="functieNr"><a href="#functieNr">nr</a></h5>
 
-<h4 id="doelOmschrijving"><a href="#doelOmschrijving">doelOmschrijving</a></h4>
+    Codes van de Functieaspecten waarop onderzoekspersoon gescreend is (of functieAspectNrs, of screeningsProfielOmschrijving)
+  </li>
+  <li>
+    <h5 id="functieOmschrijving"><a href="#functieOmschrijving">nr</a></h5>
 
-Omschrijving van het doel waarvoor de VOG is aangevraagd. (alleen indien doel ongelijk aan werkrelatie)
+    Omschrijving waarop onderzoekspersoon gescreend is (of functieAspectNrs, of screeningsProfielOmschrijving)
+  </li>
+</ul>
 
-<h4 id="belanghebbendeNaam"><a href="#belanghebbendeNaam">belanghebbendeNaam</a></h4>
 
-Naam van de belanghebbende die een VOG vereist
-
-<h5 id="functieAspectNrs"><a href="#functieAspectNrs">functieAspectNrs</a></h5>
-
-Codes van de Functieaspecten waarop onderzoekspersoon gescreend is (of functieAspectNrs, of screeningsProfielOmschrijving)
-
-<h5 id="screeningsProfielOmschrijving"><a href="#screeningsProfielOmschrijving">screeningsProfielOmschrijving</a></h5>
-
-Omschrijving van het screeningsprofiel waarop onderzoekspersoon gescreend is (of functieAspectNrs, of screeningsProfielOmschrijving)
+<h4 id="screeningsprofiel"><a href="#screeningsprofiel">screeningsprofiel</a></h4>
+Screeningsprofiel object
+<ul>
+  <li>
+    <h5 id="screeningsprofielOmschrijving"><a href="#screeningsprofielOmschrijving">omschrijving</a></h5>
+    Omschrijving van het screeningsprofiel waarop onderzoekspersoon gescreend is (of functieAspectNrs, of screeningsProfielOmschrijving)
+  </li>
+</ul>
+</body>
+</html>
