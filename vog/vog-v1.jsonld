@@ -1,33 +1,79 @@
 {
-  "@context":
-  {
+  "@context": {
     "@version": 1.1,
-    "vog": "https://sphereon-opensource.github.io/vc-contexts/vog/vog-v1#",
-    "xsd": "https://www.w3.org/2001/XMLSchema#",
+    "@protected": true,
 
-    "VOGCredential" : "vog:VOGCredential",
-    "afgifteDatum": {
-      "@id": "vog:afgifteDatum",
-      "@type": "xsd:date"
+    "vog": "https://sphereon-opensource.github.io/vc-contexts/vog/vog-v1#",
+    "schema": "https://schema.org/",
+
+    "e-vog": {
+      "@id": "https://sphereon-opensource.github.io/vc-contexts/vog/vog-v1#e-vog",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+
+
+        "afgiftedatum": {
+          "@id": "vog:afgiftedatum",
+          "@type": "schema:Date"
+        },
+        "onsKenmerk": "vog:onsKenmerk",
+        "geslachtsnaam": "vog:geslachtsnaam",
+        "tussenvoegsels": "vog:tussenvoegsels",
+        "voornamen": "vog:voornamen",
+        "geboortedatum": {
+          "@id": "vog:geboortedatum",
+          "@type": "schema:Date"
+        },
+        "geboorteplaats": "vog:geboorteplaats",
+        "geboorteland": "vog:geboorteland",
+        "functie": "vog:functie",
+        "doel": "vog:doel",
+        "belanghebbendeNaam": "vog:belanghebbendeNaam",
+        "functieAspecten": {
+          "@id": "vog:functieAspecten",
+          "@container": "@list",
+          "@type": "vog:functieAspect"
+        },
+        "screeningsProfielOmschrijving": "vog:screeningsProfielOmschrijving"
+      }
     },
-    "onsKenmerk": "vog:onsKenmerk",
-    "geslachtsNaam": "vog:geslachtsNaam",
-    "tussenVoegsel": "vog:tussenVoegsel",
-    "voorNamen": "vog:voorNamen",
-    "geboorteDatum": {
-      "@id": "vog:geboorteDatum",
-      "@type": "xsd:date"
+
+    "doel": {
+      "@id": "https://sphereon-opensource.github.io/vc-contexts/vog/vog-v1#doel",
+
+
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "doelType": "vog:doelType",
+        "doelOmschrijving": "vog:doelOmschrijving"
+      }
     },
-    "geboortePlaats": "vog:geboortePlaats",
-    "geboorteLand": "vog:geboorteLand",
-    "functie": "vog:functie",
-    "doelOmschrijving": "vog:doelOmschrijving",
-    "belanghebbendeNaam": "vog:belanghebbendeNaam",
-    "functieAspectNrs" : {
-      "@id" : "vog:functieAspectNrs",
-      "@container" : "@set",
-      "@type" : "xsd:integer"
-    },
-    "screeningsProfielOmschrijving": "vog:screeningsProfielOmschrijving"
+
+    "functieAspect": {
+      "@id": "https://sphereon-opensource.github.io/vc-contexts/vog/vog-v1#functieAspect",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "nr": {
+          "@id": "vog:functieAspectNr",
+          "@type" : "schema:Number"
+        },
+        "omschrijving": "vog:functieAspectOmschrijving"
+      }
+    }
   }
 }
