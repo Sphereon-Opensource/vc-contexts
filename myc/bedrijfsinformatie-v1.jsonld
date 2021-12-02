@@ -2,18 +2,28 @@
   "@context": {
     "@version": 1.1,
     "bi": "https://sphereon-opensource.github.io/vc-contexts/myc/bedrijfsinformatie-v1#",
-    "naam": "bi:naam",
-    "kvkNummer": "bi:kvkNummer",
-    "rechtsvorm": "bi:rechtsvorm",
-    "straatnaam": "bi:straatnaam",
-    "aanduidingBijHuisnummer": "bi:aanduidingBijHuisnummer",
-    "huisnummer: bi:huisnummer",
-    "huisnummerToevoeging": "bi:huisnummerToevoeging",
-    "huisletter": "bi:huisletter",
-    "postbusnummer": "bi:postbusnummer",
-    "postcode": "bi:postcode",
-    "plaats": "bi:plaats",
-    "bagId": "bi:bagId",
-    "datumAkteOprichting": "bi:datumAkteOprichting"
+    "Bedrijfsinformatie": {
+      "@id": "https://sphereon-opensource.github.io/vc-contexts/myc/bedrijfsinformatie-v1#bi",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+
+        "naam": "bi:naam",
+        "kvkNummer": "bi:kvkNummer",
+        "rechtsvorm": "bi:rechtsvorm",
+        "straatnaam": "bi:straatnaam",
+        "aanduidingBijHuisnummer": "bi:aanduidingBijHuisnummer",
+        "huisnummer": "bi:huisnummer",
+        "huisnummerToevoeging": "bi:huisnummerToevoeging",
+        "huisletter": "bi:huisletter",
+        "postbusnummer": "bi:postbusnummer",
+        "postcode": "bi:postcode",
+        "plaats": "bi:plaats",
+        "bagId": "bi:bagId",
+        "datumAkteOprichting": "bi:datumAkteOprichting"
+      }
+    }
   }
 }

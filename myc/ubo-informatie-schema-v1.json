@@ -7,7 +7,7 @@
   "id": "https://sphereon-opensource.github.io/vc-contexts/myc/ubo-informatie-schema-v1.json",
   "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/credential-schema.json",
   "modelVersion": "1.0",
-  "name": "UBOInformatieSchema",
+  "name": "UBOInformatie",
   "authored": "2021-07-09T00:00:00+00:00",
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
@@ -86,11 +86,7 @@
       "straatnaam",
       "huisnummer",
       "postcode",
-      "plaats",
-      "politiekPersoon",
-      "uboBestuurder",
-      "geverifeerdePaspoort",
-      "geverifeerdeBankrekening"
+      "plaats"
     ],
     "additionalProperties": false
   }
