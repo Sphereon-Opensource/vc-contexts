@@ -1,17 +1,16 @@
 {
-  "@context":
-    {
-		"@version": 1.1,
-		"wc": "https://sphereon-opensource.github.io/vc-contexts/les/winnercheque-v1#",
-		"schema": "http://schema.org/",
+  "@context": {
+    "@version": 1.1,
+    "wc": "https://sphereon-opensource.github.io/vc-contexts/les/winnercheque-v1#",
+    "schema": "http://schema.org/",
 
-		"LESWinnerCheque" : "wc:LESWinnerCheque",
+    "LESWinnerCheque": "wc:LESWinnerCheque",
 
-		"chequeId": "schema:identifier",
-		"depositAddress": "wc:depositAddress",
-		"monetaryAmount": "schema:MonetaryAmount",
+    "chequeId": "schema:identifier",
+    "depositAddress": "wc:depositAddress",
+    "monetaryAmount": "schema:MonetaryAmount",
     "monetaryCurrency": "schema:MonetaryCurrency",
-		"monetaryAmountInWords": "schema:MonetaryAmountInWords",
-		"recipientName": "schema:name"
-    }
+    "monetaryAmountInWords": "schema:MonetaryAmountInWords",
+    "recipientName": "schema:name"
+  }
 }
