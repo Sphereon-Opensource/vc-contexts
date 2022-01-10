@@ -12,7 +12,7 @@
             "id": "@id",
             "type": "@type",
             "redeemedDate": "schema:dateCreated",
-            "LESWinnerCheque": "wc:LESWinnerCheque"
+            "winnerCheque": "wc:LESWinnerCheque"
          }
       }
    }
