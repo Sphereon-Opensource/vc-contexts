@@ -10,7 +10,7 @@
             "@protected": true,
             "id": "@id",
             "type": "@type",
-            "redeemedDate": "schema:dateCreated",
+            "redeemedDate": "schema:DateTime",
             "winnerCheque": "wc:LESWinnerCheque"
          }
       }
