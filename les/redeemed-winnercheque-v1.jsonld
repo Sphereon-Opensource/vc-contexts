@@ -1,18 +1,18 @@
 {
-   "@context":{
-      "@version":1.1,
-      "wc":"https://sphereon-opensource.github.io/vc-contexts/les/winnercheque-v1#",
-      "schema":"http://schema.org/",
-      "RedeemedWinnerCheque":{
-         "@id":"https://sphereon-opensource.github.io/vc-contexts/les/redeemed-winnercheque-v1#rwc",
-         "@context":{
-            "@version":1.1,
-            "@protected":true,
-            "id":"@id",
-            "type":"@type",
-            "redemptionDate":"schema:DateTime",
-            "winnerCheque":"wc:LESWinnerCheque",
-            "transactionId":"schema:String"
+   "@context": {
+      "@version": 1.1,
+      "wc": "https://sphereon-opensource.github.io/vc-contexts/les/winnercheque-v1#",
+      "schema":" http://schema.org/",
+      "RedeemedWinnerCheque": {
+         "@id": "https://sphereon-opensource.github.io/vc-contexts/les/redeemed-winnercheque-v1#rwc",
+         "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "redemptionDate": "schema:DateTime",
+            "winnerCheque": "wc:LESWinnerCheque",
+            "transactionId": "schema:String"
          }
       }
    }
