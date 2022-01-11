@@ -1,21 +1,21 @@
 {
-   "@context": {
-      "@version": 1.1,
-	  "cbt": "https://sphereon-opensource.github.io/vc-contexts/les/coinbase-transaction-v1#",
-      "schema": "http://schema.org/",
-      "CoinbaseTransaction": {
-         "@id": "https://sphereon-opensource.github.io/vc-contexts/les/coinbase-transaction-v1#rwc",
-         "@context": {
-            "@version": 1.1,
-            "@protected": true,
-            "id": "@id",
-            "type": "@type",
-            "transactionId": "schema:String",
-			"transactionDate": "schema:DateTime",
-			"transactionAmount": "schema:MonetaryAmount",
-			"currencyCode": "schema:String",
-			"sourceAddress": "cbt:sourceAddress",
-			"depositAddress": "cbt:depositAddress",
+   "@context":{
+      "@version":1.1,
+      "cbt":"https://sphereon-opensource.github.io/vc-contexts/les/coinbase-transaction-v1#",
+      "schema":"http://schema.org/",
+      "CoinbaseTransaction":{
+         "@id":"https://sphereon-opensource.github.io/vc-contexts/les/coinbase-transaction-v1#rwc",
+         "@context":{
+            "@version":1.1,
+            "@protected":true,
+            "id":"@id",
+            "type":"@type",
+            "transactionId":"schema:String",
+            "transactionDate":"schema:DateTime",
+            "transactionAmount":"schema:MonetaryAmount",
+            "currencyCode":"schema:String",
+            "sourceAddress":"cbt:sourceAddress",
+            "depositAddress":"cbt:depositAddress"
          }
       }
    }
