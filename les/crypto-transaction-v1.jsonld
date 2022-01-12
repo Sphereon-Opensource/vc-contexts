@@ -4,13 +4,11 @@
       "ct": "https://sphereon-opensource.github.io/vc-contexts/les/crypto-transaction-v1#",
       "schema": "http://schema.org/",
       "CryptoTransaction": {
-         "@id": "https://sphereon-opensource.github.io/vc-contexts/les/crypto-transaction-v1#ct",
          "@context": {
             "@version": 1.1,
             "@protected": true,
-            "id": "@id",
             "type": "@type",
-            "transactionId": "schema:String",
+            "id": "schema:String",
             "date": "schema:DateTime",
             "amount": "schema:MonetaryAmount",
             "currencyCode": "schema:String",
