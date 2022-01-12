@@ -1,0 +1,20 @@
+{
+   "@context": {
+      "@version": 1.1,
+      "ct": "https://sphereon-opensource.github.io/vc-contexts/les/crypto-transaction-v1#",
+      "schema": "http://schema.org/",
+      "CryptoTransaction": {
+         "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "type": "@type",
+            "id": "schema:String",
+            "date": "schema:DateTime",
+            "amount": "schema:MonetaryAmount",
+            "currencyCode": "schema:String",
+            "sourceAddress": "ct:sourceAddress",
+            "depositAddress": "ct:depositAddress"
+         }
+      }
+   }
+}
