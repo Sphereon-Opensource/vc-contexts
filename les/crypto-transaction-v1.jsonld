@@ -10,7 +10,7 @@
             "@protected": true,
             "id": "@id",
             "type": "@type",
-            "id": "schema:String",
+            "transactionId": "schema:String",
             "date": "schema:DateTime",
             "amount": "schema:MonetaryAmount",
             "currencyCode": "schema:String",
