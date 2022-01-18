@@ -6,8 +6,8 @@
     "RedeemedWinnerCheque" : "rwc:RedeemedWinnerCheque",
     "redemptionDate": "schema:DateTime",
     "transactionId": "schema:String",
-    "winnerCheque": "rwc:LESWinnerCheque",
-    "LESWinnerCheque": {
+    "lesWinnerCheque": "rwc:winnerCheque",
+    "winnerCheque": {
       "@context": {
         "@version": 1.1,
 
