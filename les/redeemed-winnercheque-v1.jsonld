@@ -11,8 +11,13 @@
             "id": "@id",
             "type": "@type",
             "redemptionDate": "schema:DateTime",
-            "winnerCheque": "wc:LESWinnerCheque",
-            "transactionId": "schema:String"
+           "chequeId": "schema:identifier",
+           "transactionId": "schema:String",
+           "cryptoAddress": "schema:CryptoAddress",
+           "monetaryAmount": "schema:MonetaryAmount",
+           "monetaryCurrency": "schema:MonetaryCurrency",
+           "monetaryAmountInWords": "schema:MonetaryAmountInWords",
+           "recipientName": "schema:name"
          }
       }
    }
