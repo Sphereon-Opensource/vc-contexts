@@ -10,7 +10,7 @@
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "redemptionDate": "schema:DateTime",
+        "redemptionDate": "schema:String",
         "winnerCheque": "wc:LESWinnerCheque",
         "transactionId": "schema:String"
       }
