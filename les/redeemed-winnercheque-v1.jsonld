@@ -8,6 +8,7 @@
     "transactionId": "schema:String",
     "lesWinnerCheque": "rwc:winnerCheque",
     "winnerCheque": {
+      "@id": "rwc:winnerCheque",
       "@context": {
         "@version": 1.1,
 
