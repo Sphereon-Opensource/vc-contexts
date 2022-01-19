@@ -13,6 +13,6 @@
     "monetaryAmountInWords": "schema:MonetaryAmountInWords",
     "recipientName": "schema:name",
     "redemptionDate": "schema:DateTime",
-    "transactionId": "schema:String"
+    "redemptionTransactionId": "schema:String"
   }
 }
