@@ -4,7 +4,7 @@
     "rwc": "https://sphereon-opensource.github.io/vc-contexts/les/redeemed-winnercheque-v1#",
     "schema": "http://schema.org/",
 
-    "LESWinnerCheque": "rwc:LESWinnerCheque",
+    "RedeemedWinnerCheque": "rwc:RedeemedWinnerCheque",
 
     "chequeId": "schema:identifier",
     "cryptoAddress": "schema:CryptoAddress",
