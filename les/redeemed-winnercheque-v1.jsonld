@@ -12,6 +12,7 @@
     "monetaryCurrency": "schema:MonetaryCurrency",
     "monetaryAmountInWords": "schema:MonetaryAmountInWords",
     "recipientName": "schema:name",
+    "transactionId": "schema:String",
     "redemptionDate": "schema:DateTime",
     "redemptionTransactionId": "schema:String"
   }
