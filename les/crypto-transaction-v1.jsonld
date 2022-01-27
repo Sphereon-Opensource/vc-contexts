@@ -6,8 +6,8 @@
 
     "CryptoTransaction": "ct:CryptoTransaction",
 
-    "id": "schema:String",
     "chequeId": "schema:identifier",
+    "transactionId": "schema:String",
     "date": "schema:DateTime",
     "amount": "schema:Amount",
     "currencyCode": "schema:CurrencyCode",
