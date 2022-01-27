@@ -9,9 +9,9 @@
     "id": "schema:String",
     "chequeId": "schema:identifier",
     "date": "schema:DateTime",
-    "amount": "schema:MonetaryAmount",
-    "currencyCode": "schema:String",
-    "depositAddress": "ct:depositAddress",
-    "sourceAccountId": "ct:sourceAccountId"
+    "amount": "schema:Amount",
+    "currencyCode": "schema:CurrencyCode",
+    "depositAddress": "ct:DepositAddress",
+    "sourceAccountId": "ct:SourceAccountId"
   }
 }
