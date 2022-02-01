@@ -10,6 +10,8 @@
     "cryptoAddress": "schema:CryptoAddress",
     "monetaryAmount": "schema:MonetaryAmount",
     "monetaryCurrency": "schema:MonetaryCurrency",
+    "cryptoAmount": "schema:CryptoAmount",
+    "cryptoCurrency": "schema:CryptoCurrency",
     "monetaryAmountInWords": "schema:MonetaryAmountInWords",
     "recipientName": "schema:name",
     "transactionId": "schema:String"
