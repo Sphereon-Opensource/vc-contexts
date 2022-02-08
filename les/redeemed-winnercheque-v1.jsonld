@@ -20,15 +20,15 @@
             "@protected": true,
             "id": "@id",
             "type": "@type",
-            "chequeId": "rwc:chequeId",
-            "cryptoAddress": "rwc:cryptoAddress",
-            "monetaryAmount": "rwc:monetaryAmount",
-            "monetaryCurrency": "rwc:monetaryCurrency",
-            "cryptoAmount": "rwc:cryptoAmount",
-            "cryptoCurrency": "rwc:cryptoCurrency",
-            "monetaryAmountInWords": "rwc:monetaryAmountInWords",
-            "recipientName": "rwc:recipientName",
-            "transactionId": "rwc:transactionId"
+            "chequeId": "rwc:winnerChequeId",
+            "cryptoAddress": "rwc:winnerChequeCryptoAddress",
+            "monetaryAmount": "rwc:winnerChequeMonetaryAmount",
+            "monetaryCurrency": "rwc:winnerChequeMonetaryCurrency",
+            "cryptoAmount": "rwc:winnerChequeCryptoAmount",
+            "cryptoCurrency": "rwc:winnerChequeCryptoCurrency",
+            "monetaryAmountInWords": "rwc:winnerChequeMonetaryAmountInWords",
+            "recipientName": "rwc:winnerChequeRecipientName",
+            "transactionId": "rwc:winnerChequeTransactionId"
           }
         }
       }
