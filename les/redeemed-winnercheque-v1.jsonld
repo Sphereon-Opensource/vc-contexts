@@ -11,10 +11,6 @@
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "redemptionDate": {
-          "@id": "rwc:redemptionDate",
-          "@type": "schema:DateTime"
-        },
         "redemptionTransactionId": "rwc:redemptionTransactionId"
       }
     }
