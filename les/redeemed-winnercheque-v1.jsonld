@@ -12,25 +12,7 @@
         "id": "@id",
         "type": "@type",
         "redemptionDate": "rwc:redemptionDate",
-        "redemptionTransactionId": "rwc:redemptionTransactionId",
-        "winnerCheque": {
-          "@id": "https://sphereon-opensource.github.io/vc-contexts/les/redeemed-winnercheque-v1#winnerCheque",
-          "@context": {
-            "@version": 1.1,
-            "@protected": true,
-            "id": "@id",
-            "type": "@type",
-            "chequeId": "rwc:winnerChequeId",
-            "cryptoAddress": "rwc:winnerChequeCryptoAddress",
-            "monetaryAmount": "rwc:winnerChequeMonetaryAmount",
-            "monetaryCurrency": "rwc:winnerChequeMonetaryCurrency",
-            "cryptoAmount": "rwc:winnerChequeCryptoAmount",
-            "cryptoCurrency": "rwc:winnerChequeCryptoCurrency",
-            "monetaryAmountInWords": "rwc:winnerChequeMonetaryAmountInWords",
-            "recipientName": "rwc:winnerChequeRecipientName",
-            "transactionId": "rwc:winnerChequeTransactionId"
-          }
-        }
+        "redemptionTransactionId": "rwc:redemptionTransactionId"
       }
     }
   }
