@@ -6,7 +6,7 @@
     "rwc": "https://sphereon-opensource.github.io/vc-contexts/les/redeemed-winnercheque-v1#",
     "schema":" http://schema.org/",
     "redeemedWinnerCheque": {
-      "@id": "https://sphereon-opensource.github.io/vc-contexts/les/redeemed-winnercheque-v1#rwc",
+      "@id": "https://sphereon-opensource.github.io/vc-contexts/les/redeemed-winnercheque-v1#redeemedWinnerCheque",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -15,7 +15,7 @@
         "redemptionDate": "rwc:redemptionDate",
         "redemptionTransactionId": "rwc:redemptionTransactionId",
         "winnerCheque": {
-          "@id": "https://sphereon-opensource.github.io/vc-contexts/les/winnercheque-v2#lesWinnerCheque",
+          "@id": "https://sphereon-opensource.github.io/vc-contexts/les/winnercheque-v2#winnerCheque",
           "@context": {
             "@version": 1.1,
             "@protected": true,
