@@ -2,7 +2,6 @@
   "@context": {
     "@version": 1.1,
     "@protected": true,
-    "wc": "https://sphereon-opensource.github.io/vc-contexts/les/winnercheque-v2#",
     "rwc": "https://sphereon-opensource.github.io/vc-contexts/les/redeemed-winnercheque-v1#",
     "schema":" http://schema.org/",
     "redeemedWinnerCheque": {
@@ -15,21 +14,21 @@
         "redemptionDate": "rwc:redemptionDate",
         "redemptionTransactionId": "rwc:redemptionTransactionId",
         "winnerCheque": {
-          "@id": "https://sphereon-opensource.github.io/vc-contexts/les/winnercheque-v2#winnerCheque",
+          "@id": "https://sphereon-opensource.github.io/vc-contexts/les/redeemed-winnercheque-v1#winnerCheque",
           "@context": {
             "@version": 1.1,
             "@protected": true,
             "id": "@id",
             "type": "@type",
-            "chequeId": "wc:chequeId",
-            "cryptoAddress": "wc:cryptoAddress",
-            "monetaryAmount": "wc:monetaryAmount",
-            "monetaryCurrency": "wc:monetaryCurrency",
-            "cryptoAmount": "wc:cryptoAmount",
-            "cryptoCurrency": "wc:cryptoCurrency",
-            "monetaryAmountInWords": "wc:monetaryAmountInWords",
-            "recipientName": "wc:recipientName",
-            "transactionId": "wc:transactionId"
+            "chequeId": "rwc:chequeId",
+            "cryptoAddress": "rwc:cryptoAddress",
+            "monetaryAmount": "rwc:monetaryAmount",
+            "monetaryCurrency": "rwc:monetaryCurrency",
+            "cryptoAmount": "rwc:cryptoAmount",
+            "cryptoCurrency": "rwc:cryptoCurrency",
+            "monetaryAmountInWords": "rwc:monetaryAmountInWords",
+            "recipientName": "rwc:recipientName",
+            "transactionId": "rwc:transactionId"
           }
         }
       }
