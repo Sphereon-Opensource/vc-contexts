@@ -5,7 +5,7 @@
     "wc": "https://sphereon-opensource.github.io/vc-contexts/les/winnercheque-v2#",
     "schema": "http://schema.org/",
     "lesWinnerCheque": {
-      "@id": "https://sphereon-opensource.github.io/vc-contexts/les/winnercheque-v2#LESWinnerCheque",
+      "@id": "https://sphereon-opensource.github.io/vc-contexts/les/winnercheque-v2#lesWinnerCheque",
       "@context": {
         "@version": 1.1,
         "@protected": true,
