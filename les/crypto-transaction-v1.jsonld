@@ -1,17 +1,24 @@
 {
   "@context": {
     "@version": 1.1,
+    "@protected": true,
     "ct": "https://sphereon-opensource.github.io/vc-contexts/les/crypto-transaction-v1#",
     "schema": "http://schema.org/",
-
-    "CryptoTransaction": "ct:CryptoTransaction",
-
-    "chequeId": "schema:identifier",
-    "transactionId": "schema:String",
-    "date": "schema:DateTime",
-    "amount": "schema:Amount",
-    "currencyCode": "schema:CurrencyCode",
-    "depositAddress": "schema:DepositAddress",
-    "sourceAccountId": "schema:SourceAccountId"
+    "cryptoTransaction": {
+      "@id": "https://sphereon-opensource.github.io/vc-contexts/les/crypto-transaction-v1#cryptoTransaction",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "chequeId": "ct:chequeId",
+        "transactionId": "ct:transactionId",
+        "date": "schema:DateTime",
+        "amount": "ct:amount",
+        "currencyCode": "ct:currencyCode",
+        "depositAddress": "ct:depositAddress",
+        "sourceAccountId": "ct:sourceAccountId"
+      }
+    }
   }
 }
