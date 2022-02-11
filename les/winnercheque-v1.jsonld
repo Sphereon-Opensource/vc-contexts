@@ -1,19 +1,26 @@
 {
   "@context": {
     "@version": 1.1,
-    "wc": "https://sphereon-opensource.github.io/vc-contexts/les/winnercheque-v1#",
+    "@protected": true,
+    "wc": "https://sphereon-opensource.github.io/vc-contexts/les/winnercheque-v2#",
     "schema": "http://schema.org/",
-
-    "LESWinnerCheque": "wc:LESWinnerCheque",
-
-    "chequeId": "schema:identifier",
-    "cryptoAddress": "schema:CryptoAddress",
-    "monetaryAmount": "schema:MonetaryAmount",
-    "monetaryCurrency": "schema:MonetaryCurrency",
-    "cryptoAmount": "schema:CryptoAmount",
-    "cryptoCurrency": "schema:CryptoCurrency",
-    "monetaryAmountInWords": "schema:MonetaryAmountInWords",
-    "recipientName": "schema:name",
-    "transactionId": "schema:String"
+    "lesWinnerCheque": {
+      "@id": "https://sphereon-opensource.github.io/vc-contexts/les/winnercheque-v2#lesWinnerCheque",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "chequeId": "wc:chequeId",
+        "cryptoAddress": "wc:cryptoAddress",
+        "monetaryAmount": "wc:monetaryAmount",
+        "monetaryCurrency": "wc:monetaryCurrency",
+        "cryptoAmount": "wc:cryptoAmount",
+        "cryptoCurrency": "wc:cryptoCurrency",
+        "monetaryAmountInWords": "wc:monetaryAmountInWords",
+        "recipientName": "wc:recipientName",
+        "transactionId": "wc:transactionId"
+      }
+    }
   }
 }
