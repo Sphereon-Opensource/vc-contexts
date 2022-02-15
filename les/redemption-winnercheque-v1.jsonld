@@ -26,7 +26,6 @@
             "cryptoAmount": "rwc:winnerChequeCryptoAmount",
             "cryptoCurrency": "rwc:winnerChequeCryptoCurrency",
             "monetaryAmountInWords": "rwc:winnerChequeMonetaryAmountInWords",
-            "recipientName": "rwc:winnerChequeRecipientName",
             "transactionId": "rwc:winnerChequeTransactionId"
           }
         },
