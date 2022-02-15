@@ -19,7 +19,7 @@
         "monetaryAmountInWords": "wc:monetaryAmountInWords",
         "transactionId": "wc:transactionId",
         "player": {
-          "@id": "https://sphereon-opensource.github.io/vc-contexts/les/player-v1#player",
+          "@id": "https://sphereon-opensource.github.io/vc-contexts/les/winnercheque-v1#player",
           "@context": {
             "@version": 1.1,
             "@protected": true,
