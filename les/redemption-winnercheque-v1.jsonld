@@ -34,11 +34,11 @@
                 "@protected": true,
                 "id": "@id",
                 "type": "@type",
-                "playerId": "wc:playerId",
-                "name": "wc:name",
-                "middleName": "wc:middleName",
-                "surname": "wc:surname",
-                "cryptoAddress": "wc:cryptoAddress"
+                "playerId": "rwc:playerId",
+                "name": "rwc:name",
+                "middleName": "rwc:middleName",
+                "surname": "rwc:surname",
+                "cryptoAddress": "rwc:cryptoAddress"
               }
             }
           }
