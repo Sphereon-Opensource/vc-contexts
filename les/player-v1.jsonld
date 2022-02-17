@@ -17,15 +17,7 @@
         "surname": "pl:surname",
         "cryptoAssets": {
           "@id": "https://sphereon-opensource.github.io/vc-contexts/les/player-v1#cryptoAssets",
-          "@container": "@set",
-          "@context": {
-            "@version": 1.1,
-            "@protected": true,
-            "id": "@id",
-            "type": "@type",
-            "asset": "pl:asset",
-            "cryptoAddress": "pl:cryptoAddress"
-          }
+          "@container": "@set"
         }
       }
     }
