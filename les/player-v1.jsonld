@@ -23,11 +23,11 @@
             "@container": "@set",
             "@values": [
               {
-                "@type": "xsd:string",
+                "@type": "schema:string",
                 "@id": "pl:asset"
               },
               {
-                "@type": "xsd:string",
+                "@type": "schema:string",
                 "@id": "pl:cryptoAddress"
               }
             ]
