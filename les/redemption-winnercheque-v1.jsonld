@@ -38,7 +38,18 @@
                 "name": "rwc:name",
                 "middleName": "rwc:middleName",
                 "surname": "rwc:surname",
-                "cryptoAddress": "rwc:cryptoAddress"
+                "cryptoAssets": {
+                  "@id": "https://sphereon-opensource.github.io/vc-contexts/les/redemption-winnercheque-v1#cryptoAssets",
+                  "@container": "@list",
+                  "@context": {
+                    "@version": 1.1,
+                    "@protected": true,
+                    "id": "@id",
+                    "type": "@type",
+                    "asset": "rwc:asset",
+                    "cryptoAddress": "rwc:cryptoAddress"
+                  }
+                }
               }
             }
           }
