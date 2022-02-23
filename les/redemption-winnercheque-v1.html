@@ -1,8 +1,7 @@
-
 <h1>Redemption Winner Cheque Context</h1>
 
 <ul>
-    <li><a href="redemption-winnercheque-v1.jsonld">[Latest JSON-LD Context]</a></li>
+  <li><a href="redemption-winnercheque-v1.jsonld">[Latest JSON-LD Context]</a></li>
 </ul>
 
 <h1>Terminology</h1>
@@ -21,10 +20,6 @@ The winner cheque that has been redeemed.
   <li>
     <h5 id="winnerChequeId"><a href="#winnerChequeId">chequeId</a></h5>
     Unique identifier belonging to the cheque.
-  </li>
-  <li>
-    <h5 id="winnerChequeCryptoAddress"><a href="#winnerChequeCryptoAddress">cryptoAddress</a></h5>
-    The crypto address of the recipient.
   </li>
   <li>
     <h5 id="winnerChequeMonetaryAmount"><a href="#winnerChequeMonetaryAmount">monetaryAmount</a></h5>
@@ -47,11 +42,47 @@ The winner cheque that has been redeemed.
     The amount in words to correspond with monetaryAmount.
   </li>
   <li>
-    <h5 id="winnerChequeRecipientName"><a href="#winnerChequeRecipientName">recipientName</a></h5>
-    The name of the recipient.
-  </li>
-  <li>
     <h5 id="winnerChequeTransactionId"><a href="#winnerChequeTransactionId">transactionId</a></h5>
     The transaction id of transfer stable coins from casino to player during creating winner cheque.
   </li>
+
+  <li>
+    <h5 id="player"><a href="#player">player</a></h5>
+    The player for winner cheque.
+    <ul>
+      <li>
+        <h5 id="playerId"><a href="#playerId">playerId</a></h5>
+        Unique identifier belonging to the player.
+      </li>
+      <li>
+        <h5 id="name"><a href="#name">name</a></h5>
+        The name of the player.
+      </li>
+      <li>
+        <h5 id="middleName"><a href="#middleName">middleName</a></h5>
+        The middle name of the player.
+      </li>
+      <li>
+        <h5 id="surname"><a href="#surname">surname</a></h5>
+        The surname of the player.
+      </li>
+      <li>
+        <h5 id="cryptoAssets"><a href="#cryptoAssets">cryptoAssets</a></h5>
+        The crypto asset type and address collection of the player.
+        <ul>
+          <li>
+            <h5 id="asset"><a href="#asset">asset</a></h5>
+            The asset type of the player crypto address. e.g. USDC, USDT
+          </li>
+          <li>
+            <h5 id="cryptoAddress"><a href="#cryptoAddress">cryptoAddress</a></h5>
+            The crypto address of the player for the asset.
+          </li>
+        </ul>
+      </li>
+    </ul>
+  <li>
+
 </ul>
+
+

@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "pl": "https://sphereon-opensource.github.io/vc-contexts/les/player-v1#",
+    "schema": "http://schema.org/",
+    "player": {
+      "@id": "https://sphereon-opensource.github.io/vc-contexts/les/player-v1#player",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "playerId": "pl:playerId",
+        "firstName": "pl:firstName",
+        "middleName": "pl:middleName",
+        "surname": "pl:surname",
+        "cryptoAssets": {
+          "@id": "https://sphereon-opensource.github.io/vc-contexts/les/player-v1#cryptoAssets",
+          "@container": "@list",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "asset": "pl:asset",
+            "cryptoAddress": "pl:cryptoAddress"
+          }
+        }
+      }
+    }
+  }
+}
