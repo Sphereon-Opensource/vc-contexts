@@ -26,7 +26,7 @@
             "id": "@id",
             "type": "@type",
             "playerId": "wc:playerId",
-            "name": "wc:name",
+            "firstName": "wc:firstName",
             "middleName": "wc:middleName",
             "surname": "wc:surname",
             "cryptoAssets": {
