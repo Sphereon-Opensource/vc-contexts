@@ -35,7 +35,7 @@
                 "id": "@id",
                 "type": "@type",
                 "playerId": "rwc:playerId",
-                "name": "rwc:name",
+                "firstName": "rwc:firstName",
                 "middleName": "rwc:middleName",
                 "surname": "rwc:surname",
                 "dateOfBirth": "schema:Date",
