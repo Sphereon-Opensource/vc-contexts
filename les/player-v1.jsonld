@@ -15,6 +15,7 @@
         "firstName": "pl:firstName",
         "middleName": "pl:middleName",
         "surname": "pl:surname",
+        "dateOfBirth": "schema:Date",
         "cryptoAssets": {
           "@id": "https://sphereon-opensource.github.io/vc-contexts/les/player-v1#cryptoAssets",
           "@container": "@list",

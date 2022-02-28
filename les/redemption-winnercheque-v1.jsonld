@@ -38,6 +38,7 @@
                 "name": "rwc:name",
                 "middleName": "rwc:middleName",
                 "surname": "rwc:surname",
+                "dateOfBirth": "schema:Date",
                 "cryptoAssets": {
                   "@id": "https://sphereon-opensource.github.io/vc-contexts/les/redemption-winnercheque-v1#cryptoAssets",
                   "@container": "@list",
