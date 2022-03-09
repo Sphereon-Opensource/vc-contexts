@@ -4,7 +4,7 @@
     "https://w3id.org/security/v2",
     "https://w3c-ccg.github.io/vc-json-schemas/context/vc-json-schema-v0.0.jsonld"
   ],
-  "id": "https://sphereon-opensource.github.io/vc-contexts/myc/ubo-informatie-schema-v1.json",
+  "id": "https://sphereon-opensource.github.io/vc-contexts/myc/ubo-informatie-v1.json",
   "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/credential-schema.json",
   "modelVersion": "1.0",
   "name": "UBOInformatie",
@@ -66,10 +66,10 @@
       "uboBestuurder": {
         "type": "boolean"
       },
-      "geverifeerdePaspoort": {
+      "geverifieerdePaspoort": {
         "type": "boolean"
       },
-      "geverifeerdeBankrekening": {
+      "geverifieerdeBankrekening": {
         "type": "boolean"
       }
     },
