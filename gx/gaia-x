@@ -1,0 +1,26 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "ParticipantCredential": {
+            "@id": "https://github.com/Sphereon-Opensource/vc-contexts/blob/feature/gx-schema/FMA-34/src/static/schemas/gaia-x#ParticipantCredential",
+            "@context": {
+                "@version": 1.1,
+                "@protected": true,
+                "id": "@id",
+                "type": "@type",
+                "hash": "http://schema.org/identifier"
+            }
+        },
+        "ServiceOfferingCredentialExperimental": {
+            "@id": "https://github.com/Sphereon-Opensource/vc-contexts/blob/feature/gx-schema/FMA-34/src/static/schemas/gaia-x#ServiceOfferingCredentialExperimental",
+            "@context": {
+                "@version": 1.1,
+                "@protected": true,
+                "id": "@id",
+                "type": "@type",
+                "hash": "http://schema.org/identifier"
+            }
+        }
+    }
+}
