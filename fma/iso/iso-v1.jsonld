@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "iso": "https://sphereon-opensource.github.io/vc-contexts/fma/iso/iso-v1#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema": "http://schema.org/",
+    "ISOCertificate": "iso:ISOCertificate",
+    "initialApproval": {
+      "@id": "iso:initialApproval",
+      "@type": "xsd:dateTime"
+    },
+    "issueDate": {
+      "@id": "iso:issueDate",
+      "@type": "xsd:dateTime"
+    },
+    "validUntil": {
+      "@id": "iso:validUntil",
+      "@type": "xsd:dateTime"
+    },
+    "certificateNo": {
+      "@id": "iso:certificateNo"
+    },
+    "standardId": {
+      "@id": "iso:standardId"
+    },
+    "organizationName": {
+      "@id": "iso:organizationName",
+      "@type": "schema:legalName"
+    }
+  }
+}
