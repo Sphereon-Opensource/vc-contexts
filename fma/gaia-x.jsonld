@@ -3,7 +3,7 @@
         "@version": 1.1,
         "@protected": true,
         "ParticipantCredential": {
-            "@id": "https://github.com/Sphereon-Opensource/vc-contexts/blob/feature/gx-schema/FMA-34/gx/gaia-x#ParticipantCredential",
+            "@id": "https://sphereon-opensource.github.io/vc-contexts/fma/gaia-x#ParticipantCredential",
             "@context": {
                 "@version": 1.1,
                 "@protected": true,
@@ -13,7 +13,7 @@
             }
         },
         "ServiceOfferingCredentialExperimental": {
-            "@id": "https://github.com/Sphereon-Opensource/vc-contexts/blob/feature/gx-schema/FMA-34/gx/gaia-x#ServiceOfferingCredentialExperimental",
+            "@id": "https://sphereon-opensource.github.io/vc-contexts/fma/gaia-x#ServiceOfferingCredentialExperimental",
             "@context": {
                 "@version": 1.1,
                 "@protected": true,
