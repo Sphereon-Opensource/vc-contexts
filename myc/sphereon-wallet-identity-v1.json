@@ -4,14 +4,14 @@
     "https://w3id.org/security/v2",
     "https://w3c-ccg.github.io/vc-json-schemas/context/vc-json-schema-v0.0.jsonld"
   ],
-  "id": "https://sphereon-opensource.github.io/vc-contexts/myc/personal-information-v1.json",
+  "id": "https://sphereon-opensource.github.io/vc-contexts/myc/sphereon-wallet-identity-v1.json",
   "type": "https://w3c-ccg.github.io/vc-json-schemas/schema/credential-schema.json",
   "modelVersion": "1.0",
-  "name": "PersonalInformation",
+  "name": "SphereonWalletIdentity",
   "authored": "2023-02-21T00:00:00+00:00",
   "schema": {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "description": "Personal Information",
+    "description": "Sphereon Wallet Identity",
     "type": "object",
     "properties": {
       "firstName": {
