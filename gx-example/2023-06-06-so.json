@@ -1,0 +1,153 @@
+{
+  "id": "urn:uuid:4ebf3897-4987-4de7-8d99-59d1faf2a846",
+  "type": [
+    "VerifiablePresentation"
+  ],
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1"
+  ],
+  "verifiableCredential": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "urn:uuid:554db947-e001-431c-ae55-22a781e1f928",
+      "issuer": "did:web:4c30-2001-1c04-2b10-ee00-e7d5-abed-7e72-9d92.ngrok-free.app",
+      "issuanceDate": "2023-05-26T14:12:00.887Z",
+      "credentialSubject": {
+        "id": "did:web:4c30-2001-1c04-2b10-ee00-e7d5-abed-7e72-9d92.ngrok-free.app",
+        "type": "gx:LegalParticipant",
+        "gx:legalName": "Gaia-X European Association for Data and Cloud AISBL",
+        "gx:legalRegistrationNumber": {
+          "gx:vatID": "BE0762747721"
+        },
+        "gx:headquarterAddress": {
+          "gx:countrySubdivisionCode": "BE-BRU"
+        },
+        "gx:legalAddress": {
+          "gx:countrySubdivisionCode": "BE-BRU"
+        },
+        "gx-terms-and-conditions:gaiaxTermsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2023-05-31T13:44:01Z",
+        "verificationMethod": "did:web:4c30-2001-1c04-2b10-ee00-e7d5-abed-7e72-9d92.ngrok-free.app#JWK2020-RSA",
+        "proofPurpose": "assertionMethod",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..NDJXn8BeObxuDQ8q_3jztdqKm2RCQMUdyVAx4cv1GN3hREr9KIKprQPV3enfhHsMxDeTo80O3UNLblTYNlj36NIsI-7QDeYb72wU5xi-NsJuKIQKBqc2XcptLWYZEInunu8R6E8LwYLa0i9Pxzcs-oYxaoOjSTm3F4XcAuWGD5mH8i1P9NywZ3bl7no62eIM7X0TcJ1k43K-mJdxGbClro4JXrlgSbYzJSBViK9SrbzIOYVvMS1fjDuxTmgR9A6ZzAfRZBciIB3e-GYAv8gT2U5qxTKPpGCnFBIPL4bt8oQQcQYJT92JoKbD2sJQa2BiHKtMflCEfZrcBx3fswFzdw"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "https://gaia-x.eu/.well-known/service1.json",
+      "issuer": "did:web:4c30-2001-1c04-2b10-ee00-e7d5-abed-7e72-9d92.ngrok-free.app",
+      "issuanceDate": "2023-05-27T22:25:13.934Z",
+      "credentialSubject": {
+        "id": "did:web:4c30-2001-1c04-2b10-ee00-e7d5-abed-7e72-9d92.ngrok-free.app",
+        "type": "gx:ServiceOffering",
+        "gx:providedBy": {
+          "id": "did:web:4c30-2001-1c04-2b10-ee00-e7d5-abed-7e72-9d92.ngrok-free.app"
+        },
+        "gx:policy": "",
+        "gx:termsAndConditions": {
+          "gx:URL": "http://termsandconds.com",
+          "gx:hash": "d8402a23de560f5ab34b22d1a142feb9e13b3143"
+        },
+        "gx:dataAccountExport": {
+          "gx:requestType": "API",
+          "gx:accessType": "digital",
+          "gx:formatType": "application/json"
+        }
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2023-05-31T14:09:57Z",
+        "verificationMethod": "did:web:4c30-2001-1c04-2b10-ee00-e7d5-abed-7e72-9d92.ngrok-free.app#JWK2020-RSA",
+        "proofPurpose": "assertionMethod",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..s2WeweImLTXxPMwcz4zmMEh2op8aG6L9KEDrc6XJsApX9ahifGOM7pCfYVT5cjUTk1a8Lq6Sjw01_BaCVkIaupCt6flmNA2gSgvGwsBuxFXMT9Z54XO2qfiti9mR_3PqR_CfeImG_8EaE3qqm1V5vWCx75mrKPg74TUsLacWr2hs1sc-7IXRnHVgSETkuH7L6dM_g2IdGSDoI3c6otR_QkJZ79v87e7ultw8QgohSUjfPHRXWlK6cFxxlMRSnUBCYOGBHRph5V3SAgu_tCkNiYM4nWRSlCzeLE9iQGWTvS_9OfI7iTmOlqEZUIvIktNsvUt6hsXJERphp76AMtkK1w"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://registry.lab.gaia-x.eu//development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "https://4c30-2001-1c04-2b10-ee00-e7d5-abed-7e72-9d92.ngrok-free.app/credential-offers/2f6e7133-a791-4f36-8660-186c5f3ad23f",
+      "issuer": "did:web:4c30-2001-1c04-2b10-ee00-e7d5-abed-7e72-9d92.ngrok-free.app",
+      "issuanceDate": "2023-05-31T14:07:34.999Z",
+      "expirationDate": "2023-08-29T14:07:34.999Z",
+      "credentialSubject": [
+        {
+          "type": "gx:compliance",
+          "id": "did:web:4c30-2001-1c04-2b10-ee00-e7d5-abed-7e72-9d92.ngrok-free.app",
+          "integrity": "sha256-11fb3ded1ce29b06c5ad15f2bcc8bf1eac41973e70289bf41600aeb1dffe5356"
+        }
+      ],
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2023-05-31T14:07:35.629Z",
+        "proofPurpose": "assertionMethod",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Vd0183MVQAjghTPMn0qeCdXwv9VlqV0Rk61vgY53kMeRYsU8x_NdvXuBTp2vms3Ema7w_5vE07yISfhPdWtIqiY7vAU-ZjnNF-X6k9DnSZGR909yufhurj-Cdrn8mPLPrGYMokztebO3X6xbMyYN7x-vxOqtCM4is99nzQ5A10NCamasB7jKcrgQg623DrRHHxiudytihEuyksYQdywV3Qf6TE13a1uL-8TigoPzs6UlOQoULVZ3Ybkv6b1WRKh8DWDPi-XWBP2zHBJfr62R4s7Xk91_QW8okQQ-aRXFTJqj1GjaYGA3kTTLtNlSc_M-n8IbOn6KUzD59DEUBuyCHQ",
+        "verificationMethod": "did:web:4c30-2001-1c04-2b10-ee00-e7d5-abed-7e72-9d92.ngrok-free.app#JWK2020-RSA"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://registry.lab.gaia-x.eu//development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "https://4c30-2001-1c04-2b10-ee00-e7d5-abed-7e72-9d92.ngrok-free.app/credential-offers/67645d91-6bb5-4661-a6d1-2d36dce30172",
+      "issuer": "did:web:4c30-2001-1c04-2b10-ee00-e7d5-abed-7e72-9d92.ngrok-free.app",
+      "issuanceDate": "2023-05-31T14:10:01.794Z",
+      "expirationDate": "2023-08-29T14:10:01.794Z",
+      "credentialSubject": [
+        {
+          "type": "gx:compliance",
+          "id": "did:web:4c30-2001-1c04-2b10-ee00-e7d5-abed-7e72-9d92.ngrok-free.app",
+          "integrity": "sha256-d03feb54fedcb3ed0411f723bdd8b19e928d742a49f4c7ca109979e08ac83974"
+        },
+        {
+          "type": "gx:compliance",
+          "id": "did:web:4c30-2001-1c04-2b10-ee00-e7d5-abed-7e72-9d92.ngrok-free.app",
+          "integrity": "sha256-198332fad39100e726dcc94bd1c68dfbee2db02befc12c92e35e7648b4399336"
+        },
+        {
+          "type": "gx:compliance",
+          "id": "did:web:4c30-2001-1c04-2b10-ee00-e7d5-abed-7e72-9d92.ngrok-free.app",
+          "integrity": "sha256-11fb3ded1ce29b06c5ad15f2bcc8bf1eac41973e70289bf41600aeb1dffe5356"
+        }
+      ],
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2023-05-31T14:10:02.314Z",
+        "proofPurpose": "assertionMethod",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AbRrpo2qbgaCS6HAykU6PACi37iFxlviyu2hxrfhhjhvmz7sItIPFMQc_fj-qGyXD6Zr_LoA2aR5kFE2w4zgu0oEP8Mmudf4fTKzl-3vPNY9lfEUf9tLg_LxLzivs24C2Vz4y2--r2BkNeeXTJ7_pnlBWuDoVPNm3gcrfcT69VcLWmZpErOqhbHTmqafoklr4iGOs7ehU9TGxXS7JptGglAZ_caBVfHvIQQi1MP31mQeIJk7U_t7KohW4Y5ZQKjBL36OL2OqPprZhBEcouOGqI82fRKxAdq22AIjFkgarg9QavwLlq1F_F0qxshpR_QGBE55LV9uU6NJ877Is2sa_w",
+        "verificationMethod": "did:web:4c30-2001-1c04-2b10-ee00-e7d5-abed-7e72-9d92.ngrok-free.app#JWK2020-RSA"
+      }
+    }
+  ],
+  "holder": "did:web:4c30-2001-1c04-2b10-ee00-e7d5-abed-7e72-9d92.ngrok-free.app",
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2023-06-01T08:47:10Z",
+    "verificationMethod": "did:web:4c30-2001-1c04-2b10-ee00-e7d5-abed-7e72-9d92.ngrok-free.app#JWK2020-RSA",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..h-rEB7ZPqRCh4Pb9eXK7iX4PEtwF9GdHlrrMR6JSnybVMsxnKcN5tBgqJx33dSIXyPtPSciA2rcp2d7qyQ_tr60oD2dMwu2xnYqgRL67iIkGfg8jIRpunjrZG2PQXPK61ziZvGo4HwuVztY5bwZAqtGTKRs7dWona3U7q2uGsELHojFoHIHfR_j0RPSxLWh8ek_8ZNE13aNVR9QvPwUcxEJ9OGhifhO6XVwwFUDtNtgbGqIU4mwdSC6DU2h6yUsYSK2pu7SRj7qrq4cDbp70OAuLwV8Sywg5IqxuJKKlJZq5YJy_7hgBSvr3RcqeY8BSFr7-H2QGg2n9HuWRIKuwNg"
+  }
+}
