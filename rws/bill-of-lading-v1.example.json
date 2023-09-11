@@ -1,0 +1,405 @@
+{
+  "verifiableCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://w3id.org/traceability/v1",
+      "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "urn:uuid:326c74c8-f4d7-4c1b-b158-2683deb8222a",
+    "type": [
+      "VerifiableCredential",
+      "BillOfLadingCredential"
+    ],
+    "issuanceDate": "2023-09-10T03:50:55Z",
+    "issuer": {
+      "type": [
+        "Organization"
+      ],
+      "id": "did:web:localhost",
+      "name": "Stone Base BV"
+    },
+    "credentialSubject": {
+      "type": [
+        "BillOfLading"
+      ],
+      "billOfLadingNumber": "991205182A",
+      "bookingNumber": "991205182",
+      "carrier": {
+        "id": "did:key:z6MktHQo3fRRohk44dsbE76CuiTpBmyMWq2VVjvV6aBSeE3U",
+        "type": [
+          "Organization"
+        ],
+        "name": "Carrier Salty Goods And More",
+        "email": "salty@example.com",
+        "scac": "NISC",
+        "phoneNumber": "+1-477-555-9216",
+        "location": {
+          "type": [
+            "Place"
+          ],
+          "address": {
+            "type": [
+              "PostalAddress"
+            ],
+            "name": "Carrier Salty Goods And More",
+            "streetAddress": "9101 W Dodge Rd",
+            "addressLocality": "Omaha",
+            "addressRegion": "Nebraska",
+            "postalCode": "68114",
+            "addressCountry": "United States"
+          }
+        }
+      },
+      "consignor": {
+        "type": [
+          "Organization"
+        ],
+        "name": "Stone Base BV",
+        "email": "stonebase@example.org",
+        "phoneNumber": "+31-736431442",
+        "location": {
+          "type": [
+            "Place"
+          ],
+          "address": {
+            "type": [
+              "PostalAddress"
+            ],
+            "name": "Stone Base BV",
+            "streetAddress": "5236 BD",
+            "addressLocality": "s-Hertogenbosch",
+            "addressRegion": "NB",
+            "postalCode": "5236 BD",
+            "addressCountry": "The Netherlands"
+          }
+        }
+      },
+      "consignee": {
+        "type": [
+          "Organization"
+        ],
+        "id": "did:web:localhost",
+        "name": "Rijkswaterstaat",
+        "email": "rws@example.org",
+        "phoneNumber": "+1-020-555-0864",
+        "location": {
+          "type": [
+            "Place"
+          ],
+          "address": {
+            "type": [
+              "PostalAddress"
+            ],
+            "name": "Rijkswaterstaat",
+            "streetAddress": "Griffioenlaan 2",
+            "addressLocality": "Utrecht",
+            "addressRegion": "UT",
+            "postalCode": "3526 LA",
+            "addressCountry": "The Netherlands"
+          }
+        }
+      },
+      "notify": {
+        "type": [
+          "Organization"
+        ],
+        "id": "did:web:localhost",
+        "name": "Rijkswaterstaat",
+        "email": "rws@example.org",
+        "phoneNumber": "+1-020-555-0864",
+        "location": {
+          "type": [
+            "Place"
+          ],
+          "address": {
+            "type": [
+              "PostalAddress"
+            ],
+            "name": "Rijkswaterstaat",
+            "streetAddress": "Griffioenlaan 2",
+            "addressLocality": "Utrecht",
+            "addressRegion": "UT",
+            "postalCode": "3526 LA",
+            "addressCountry": "The Netherlands"
+          }
+        }
+      },
+      "freightForwarder": {
+        "type": [
+          "Organization"
+        ],
+        "name": "Florida Contact Org",
+        "email": "Florida91@example.net",
+        "phoneNumber": "+1-555-555-8103",
+        "location": {
+          "type": [
+            "Place"
+          ],
+          "address": {
+            "type": [
+              "PostalAddress"
+            ],
+            "name": "Hahn LLC",
+            "streetAddress": "786 Pfeffer Plains",
+            "addressLocality": "West Ottilie",
+            "addressRegion": "Nebraska",
+            "postalCode": "50878-0870",
+            "addressCountry": "Cook Islands"
+          }
+        }
+      },
+      "freight": {
+        "type": [
+          "ParcelDelivery"
+        ],
+        "deliveryAddress": {
+          "type": [
+            "Place"
+          ],
+          "address": {
+            "type": [
+              "PostalAddress"
+            ],
+            "name": "Hahn LLC",
+            "streetAddress": "786 Pfeffer Plains",
+            "addressLocality": "West Ottilie",
+            "addressRegion": "Nebraska",
+            "postalCode": "50878-0870",
+            "addressCountry": "Cook Islands"
+          }
+        },
+        "originAddress": {
+          "type": [
+            "Place"
+          ],
+          "address": {
+            "type": [
+              "PostalAddress"
+            ],
+            "name": "Rosenbaum, Hills and Pagac",
+            "streetAddress": "71834 Zelma Trail",
+            "addressLocality": "West Gerhardview",
+            "addressRegion": "North Carolina",
+            "postalCode": "78251-3640",
+            "addressCountry": "Paraguay"
+          }
+        },
+        "partOfOrder": {
+          "type": [
+            "Order"
+          ],
+          "orderedItems": [
+            {
+              "type": [
+                "OrderItem"
+              ],
+              "marketplace": {
+                "type": [
+                  "Organization"
+                ],
+                "name": "Florida Contact Org",
+                "email": "Florida91@example.net",
+                "phoneNumber": "+1-473-555-7629",
+                "location": {
+                  "type": [
+                    "Place"
+                  ],
+                  "address": {
+                    "type": [
+                      "PostalAddress"
+                    ],
+                    "name": "Hahn LLC",
+                    "streetAddress": "786 Pfeffer Plains",
+                    "addressLocality": "West Ottilie",
+                    "addressRegion": "Nebraska",
+                    "postalCode": "50878-0870",
+                    "addressCountry": "Cook Islands"
+                  }
+                }
+              },
+              "fulfillmentCenter": {
+                "type": [
+                  "Organization"
+                ],
+                "name": "Florida Contact Org",
+                "email": "Florida91@example.net",
+                "phoneNumber": "+1-112-555-8239",
+                "location": {
+                  "type": [
+                    "Place"
+                  ],
+                  "address": {
+                    "type": [
+                      "PostalAddress"
+                    ],
+                    "name": "Hahn LLC",
+                    "streetAddress": "786 Pfeffer Plains",
+                    "addressLocality": "West Ottilie",
+                    "addressRegion": "Nebraska",
+                    "postalCode": "50878-0870",
+                    "addressCountry": "Cook Islands"
+                  }
+                }
+              },
+              "orderedItem": {
+                "type": [
+                  "Product"
+                ],
+                "manufacturer": {
+                  "type": [
+                    "Organization"
+                  ],
+                  "name": "Florida Contact Org",
+                  "email": "Florida91@example.net",
+                  "phoneNumber": "+1-636-555-3014",
+                  "location": {
+                    "type": [
+                      "Place"
+                    ],
+                    "address": {
+                      "type": [
+                        "PostalAddress"
+                      ],
+                      "name": "Hahn LLC",
+                      "streetAddress": "786 Pfeffer Plains",
+                      "addressLocality": "West Ottilie",
+                      "addressRegion": "Nebraska",
+                      "postalCode": "50878-0870",
+                      "addressCountry": "Cook Islands"
+                    }
+                  }
+                },
+                "sizeOrAmount": {
+                  "type": [
+                    "QuantitativeValue"
+                  ],
+                  "unitCode": "boxes",
+                  "value": "500"
+                },
+                "weight": {
+                  "type": [
+                    "QuantitativeValue"
+                  ],
+                  "unitCode": "lbs",
+                  "value": "1533"
+                },
+                "depth": {
+                  "type": [
+                    "QuantitativeValue"
+                  ],
+                  "unitCode": "ft",
+                  "value": "10"
+                },
+                "width": {
+                  "type": [
+                    "QuantitativeValue"
+                  ],
+                  "unitCode": "ft",
+                  "value": "20"
+                },
+                "height": {
+                  "type": [
+                    "QuantitativeValue"
+                  ],
+                  "unitCode": "ft",
+                  "value": "30"
+                },
+                "commodity": {
+                  "type": [
+                    "Commodity"
+                  ],
+                  "commodityCode": "851671",
+                  "commodityCodeType": "HS"
+                },
+                "seller": {
+                  "type": [
+                    "Organization"
+                  ],
+                  "name": "Florida Contact Org",
+                  "email": "Florida91@example.net",
+                  "phoneNumber": "+1-187-555-0636",
+                  "location": {
+                    "type": [
+                      "Place"
+                    ],
+                    "address": {
+                      "type": [
+                        "PostalAddress"
+                      ],
+                      "name": "Hahn LLC",
+                      "streetAddress": "786 Pfeffer Plains",
+                      "addressLocality": "West Ottilie",
+                      "addressRegion": "Nebraska",
+                      "postalCode": "50878-0870",
+                      "addressCountry": "Cook Islands"
+                    }
+                  }
+                }
+              },
+              "orderedQuantity": 1
+            }
+          ],
+          "orderNumber": "121"
+        },
+        "deliveryMethod": "Ocean transport",
+        "trackingNumber": "178380801954"
+      },
+      "portOfLoading": {
+        "type": [
+          "Place"
+        ],
+        "unLocode": "EGALY"
+      },
+      "portOfDischarge": {
+        "type": [
+          "Place"
+        ],
+        "unLocode": "NLRTM"
+      },
+      "particulars": [
+        {
+          "type": [
+            "ConsignmentItem"
+          ],
+          "marksAndNumbers": "Zeezout",
+          "material": {
+            "type": [
+              "RawMaterial"
+            ],
+            "name": "Zeezout",
+            "inchiKey": "FAPWRFPIFSIZLT-UHFFFAOYSA-M"
+          },
+          "packageQuantity": 150,
+          "netWeight": {
+            "type": [
+              "QuantitativeValue"
+            ],
+            "unitCode": "kg",
+            "value": "150000"
+          },
+          "grossWeight": {
+            "type": [
+              "QuantitativeValue"
+            ],
+            "unitCode": "kg",
+            "value": "159600"
+          },
+          "grossVolume": {
+            "type": [
+              "QuantitativeValue"
+            ],
+            "value": "856",
+            "unitCode": "cmb"
+          }
+        }
+      ]
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-09-11T22:18:28Z",
+      "verificationMethod": "did:web:localhost#did:web:localhost",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jmj18ItEWul4dItxC-bbOVfxooil2WbMlRX2YoWzNO_8yzJmRL-aRIWeZhOURlbhNtWU-3th-S4x8033GQ89Kovep5AxpsND_dVRv1NesI4IlppWLG23cIF2Pnun2sBBxCUh5VqYAG2EthfbEmeO06S-UJ7X2K_zvNC-AB_GEVr_a2PnWz1YKuF6CTxW6RWN59oYVM4QD9ySCjRl5kdGPxtWyZBWZuTQMFHUERDykJnHFcAYmuOyGJj6_vw1cWGV5w4A68z32Whi4H79dIomSuXdTxgaGWeIizf-WKbl7o4x2TzZ5_a-7eoxC-5WTrcCPh7YM_OOQClU1uvC770BCw"
+    }
+  }
+}

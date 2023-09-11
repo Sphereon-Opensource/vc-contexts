@@ -1,0 +1,51 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/traceability/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "urn:uuid:326c74c8-f4d7-4c1b-b158-2683deb8768e",
+  "type": [
+    "VerifiableCredential",
+    "CertificationOfOrigin"
+  ],
+  "issuanceDate": "2013-09-10T03:50:55Z",
+  "issuer": {
+    "type": [
+      "Organization"
+    ],
+    "id": "did:web:localhost",
+    "name": "StoneBase BV"
+  },
+  "credentialSubject": {
+    "items": [
+      {
+        "type": [
+          "TradeLineItem"
+        ],
+        "name": "Zeezout NTA 8900 2023",
+        "description": "Zeezout conform NTA 8900 voor RWS tender 2023 ",
+        "material": {
+          "type": [
+            "rawMaterial"
+          ],
+          "inchiKey": "FAPWRFPIFSIZLT-UHFFFAOYSA-M",
+          "name": "Zeezout",
+          "netTonnage": "150",
+          "grainDistribution": "FINE",
+          "specification": "NTA 8900"
+        }
+      }
+    ],
+    "manufacturingCountry": "EGY",
+    "dateOfExport": "2023-09-23",
+    "dateOfLastDevelivery": "2022-09-22"
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2023-09-11T22:01:38Z",
+    "verificationMethod": "did:web:localhost#did:web:localhost",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..G1vq3MT6jCKztLjT9AcpDyhUYlP92_lnKU5cP7E_G-62MBlJOxznGv7dhdSLz36raRLVTOM1K3LNsHqApuDFoHTR0Vwfbe-9cgCpAwAkmr3cd6UNAMNRsZh0SSoh07t042xCKwmUM1H3we8fGsmSuoERZ1UM0onZzZLoMjaa3H-OWyT1HXPvq92W1UTefEWUyAmwT7HlGCzAmQONpnXDph9SZA0Gso6y5cgQ2Df3O-iGfZFTllSKFb9TStTKhUQcqbYoqeDSi8nnnTLakGDwA6fyGcX3y3ESu64MXNC0JcwXRlkjyB6ltLWRfLBILwpF7IxWDXAHQg9wo_U7UhnMLw"
+  }
+}
