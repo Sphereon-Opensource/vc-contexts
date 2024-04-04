@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Woonplaatsverklaring",
+  "description": "verklaring waarin staat dat een belastingplichtige gevestigd is in Nederland",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://api-pilot.ebsi.eu/trusted-schemas-registry/v2/schemas/0xa36f4a45e3949e05e6ae8012db4a87d213824abfb6783ae940ba1596b996c121"
+    },
+    {
+      "properties": {
+        "credentialSubject": {
+          "description": "Bevat attributen over het onderwerp, te weten een Nederlandse vennootschap",
+          "type": "object",
+          "properties": {
+            "id": {
+              "description": "De DID van het subject waarover de Verifiable Attestation gaat",
+              "type": "string",
+              "format": "uri"
+            },
+            "naam": {
+              "description": "Naam van de onderneming",
+              "type": "string"
+            },
+            "rsin": {
+              "description": "Het Rechtspersonen en Samenwerkingsverbanden Informatienummer, uitgegeven door de Kamer van Koophandel",
+              "type": "string"
+            },
+            "adres": {
+              "description": "Woonplaats of verstigings adres",
+              "type": "object",
+              "properties": {
+                "straatnaam": {
+                  "description": "Sstraatnaam",
+                  "type": "string"
+                },
+                "huisnummer": {
+                  "description": "Huisnummer",
+                  "type": "string"
+                },
+                "postcode": {
+                  "description": "Postcode",
+                  "type": "string"
+                },
+                "plaats": {
+                  "description": "Plaats",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "straatnaam",
+                "huisnummer",
+                "postcode",
+                "plaats"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "naam",
+            "rsin",
+            "adres"
+          ]
+        }
+      }
+    }
+  ]
+}
