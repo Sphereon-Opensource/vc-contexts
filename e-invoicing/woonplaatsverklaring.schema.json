@@ -31,7 +31,7 @@
               "type": "object",
               "properties": {
                 "straatnaam": {
-                  "description": "Sstraatnaam",
+                  "description": "Straatnaam",
                   "type": "string"
                 },
                 "huisnummer": {
