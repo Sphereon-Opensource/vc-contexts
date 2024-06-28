@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IBAN Legal Person",
+  "description": "The Bank Identity Verification Credential is used by various stakeholders including other banks, financial institutions, regulatory bodies, and businesses engaged in financial transactions to verify the legitimacy and details of the bank, ensuring secure and compliant operations.",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://api-pilot.ebsi.eu/trusted-schemas-registry/v2/schemas/0xa36f4a45e3949e05e6ae8012db4a87d213824abfb6783ae940ba1596b996c121"
+    },
+    {
+      "properties": {
+        "credentialSubject": {
+          "description": "This Verifiable Credential (VC) attests to the identity and key financial details of a banking institution. It is issued to legally recognized financial entities to provide verifiable proof of their identity and banking details for secure and compliant financial transactions.",
+          "type": "object",
+          "properties": {
+            "bankName": {
+              "description": "The official name of the bank. This should be the full, legal name of the banking institution as registered with the relevant financial authorities.",
+              "type": "string"
+            },
+            "leiCodeBank": {
+              "description": "The Legal Entity Identifier (LEI) code assigned to the bank. This 20-character alphanumeric code uniquely identifies the legal entity in global financial transactions.",
+              "type": "string"
+            },
+            "swiftNumber": {
+              "description": "The SWIFT/BIC (Bank Identifier Code) number for the bank. This code, which is either 8 or 11 characters long, ensures accurate identification of the bank in international financial transactions, facilitating seamless and secure communication between financial institutions.",
+              "type": "string"
+            },
+            "iban": {
+              "description": "The International Bank Account Number (IBAN) for the bank. This up to 34-character alphanumeric code is a standardized way of identifying bank accounts across borders, ensuring the correct and efficient processing of international payments.",
+              "type": "string"
+            },
+            "accountHolder": {
+              "description": "Holder of this account",
+              "type": "string"
+            }
+          },
+          "required": [
+            "bankName",
+            "leiCodeBank",
+            "swiftNumber",
+            "iban",
+            "accountHolder"
+          ]
+        }
+      }
+    }
+  ]
+}
