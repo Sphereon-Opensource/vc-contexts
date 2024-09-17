@@ -1,0 +1,138 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "Order",
+    "title": "Order",
+    "description": "Verifiable Credential for an order.",
+    "type": "object",
+    "required": [
+        "order",
+        "iss",
+        "iat",
+        "vct"
+    ],
+    "properties": {
+        "order": {
+            "title": "Order",
+            "description": "An agreement between one party (the customer, supplier) and another party (the Airline) to receive products and services under specified terms and conditions at an agreed price.",
+            "required": [
+                "givenName",
+                "orderIdentifier",
+                "surname",
+                "titleName"
+            ],
+            "properties": {
+                "givenName": {
+                    "title": "Credential Subject Given Name",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 64
+                },
+                "orderIdentifier": {
+                    "title": "Identifier",
+                    "type": "string",
+                    "maxLength": 14
+                },
+                "surname": {
+                    "title": "Credential Subject Surname",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 64
+                },
+                "titleName": {
+                    "title": "Credential Subject Title Name",
+                    "type": "string",
+                    "minLength": 2,
+                    "maxLength": 88
+                },
+                "paxSegments": {
+                    "title": "Passenger Segments",
+                    "description": "Transportation of a passenger on a segment.",
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                        "type": "object",
+                        "required": [
+                            "destStationIATALocationCode",
+                            "flightIdentifierDate",
+                            "operatingCarrierAirlineDesigCode",
+                            "operatingCarrierFlightNumber",
+                            "originStationIATALocationCode",
+                            "bookingStatusCode",
+                            "scheduledArrivalTime",
+                            "scheduledDepartureTime"
+                        ],
+                        "properties": {
+                            "destStationIATALocationCode": {
+                                "title": "Destination Station IATA Location Code",
+                                "description": "IATA location code for the arrival station.",
+                                "type": "string",
+                                "minLength": 3,
+                                "maxLength": 3
+                            },
+                            "flightIdentifierDate": {
+                                "title": "Flight Identifier Date",
+                                "description": "Date of the scheduled aircraft departure from the station of origin in ISO 8601 format (YYYY-MM-DD).",
+                                "type": "string",
+                                "format": "date"
+                            },
+                            "operatingCarrierAirlineDesigCode": {
+                                "title": "Operating Carrier Airline Designator Code",
+                                "description": "The IATA Airline code or ICAO Airline code of the operating airline.",
+                                "type": "string",
+                                "pattern": "^([A-Z]{3}|[A-Z]{2})|([0-9][A-Z])|([A-Z][0-9])$"
+                            },
+                            "operatingCarrierFlightNumber": {
+                                "title": "Operating Carrier Flight Number",
+                                "description": "The numerical designation of a flight as assigned by the operating carrier.",
+                                "type": "string",
+                                "pattern": "^[0-9]{1,4}$"
+                            },
+                            "originStationIATALocationCode": {
+                                "title": "Origin Station IATA Location Code",
+                                "description": "IATA location code for the departure station.",
+                                "type": "string",
+                                "minLength": 3,
+                                "maxLength": 3
+                            },
+                            "bookingStatusCode": {
+                                "title": "Booking Status Code",
+                                "description": "Collection of passenger and booking statuses related to an airline's customer ordering and passenger fulfillment processes.",
+                                "type": "string",
+                                "pattern": "^[A-Z][a-z]*(?:-[A-Z][a-z]*)*$"
+                            },
+                            "scheduledArrivalTime": {
+                                "title": "Scheduled Arrival Time",
+                                "description": "Local time the flight is due to arrive at the destination airport in ISO 8601 format (HH:MM:SS).",
+                                "type": "string",
+                                "format": "time",
+                                "pattern": "^(?:[01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d$"
+                            },
+                            "scheduledDepartureTime": {
+                                "title": "Scheduled Departure Time",
+                                "description": "Local time the flight is due to leave the origin airport in ISO 8601 format (HH:MM:SS).",
+                                "type": "string",
+                                "format": "time",
+                                "pattern": "^(?:[01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d$"
+                            }
+                        },
+                        "additionalProperties": false
+                    },
+                    "additionalProperties": false
+                }
+            }
+        },
+        "iss": {
+            "type": "string",
+            "format": "uri"
+        },
+        "iat": {
+            "type": "integer"
+        },
+        "exp": {
+            "type": "integer"
+        },
+        "vct": {
+            "type": "string"
+        }
+    }
+}
