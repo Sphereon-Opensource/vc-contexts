@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "Journey",
+  "title": "Journey",
+  "description": "Verifiable Credential for a journey.",
+  "type": "object",
+  "required": [
+    "journey",
+    "iss",
+    "iat",
+    "vct"
+  ],
+  "properties": {
+    "journey": {
+      "title": "Journey",
+      "required": [
+        "flightNumberText",
+        "givenName",
+        "originDepDateTime",
+        "surname",
+        "titleName"
+      ],
+      "properties": {
+        "flightNumberText": {
+          "title": "Flight Number Text",
+          "type": "string",
+          "pattern": "^[0-9]{1,4}$"
+        },
+        "givenName": {
+          "title": "Credential Subject Given Name",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64
+        },
+        "originDepDateTime": {
+          "title": "Origin Departure Date Time",
+          "type": "string",
+          "format": "date-time"
+        },
+        "surname": {
+          "title": "Credential Subject Surname",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 64
+        },
+        "titleName": {
+          "title": "Credential Subject Title Name",
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 88
+        }
+      }
+    },
+    "iss": {
+      "type": "string",
+      "format": "uri"
+    },
+    "iat": {
+      "type": "integer"
+    },
+    "exp": {
+      "type": "integer"
+    },
+    "vct": {
+      "type": "string"
+    }
+  }
+}
