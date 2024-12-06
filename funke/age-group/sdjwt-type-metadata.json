@@ -1,5 +1,5 @@
 {
-  --"vct": "https://betelgeuse.example.com/education_credential",
+  "vct": "https://raw.githubusercontent.com/Sphereon-Opensource/vc-contexts/refs/heads/master/funke/age-group/vct-schema.json",
   "name": "Age Group",
   "description": "Verifiable Credential for age group",
   "display": [
@@ -51,41 +51,46 @@
   ],
   "claims": [
     {
-      "path": ["ageGroup"],
+      "path": [
+        "ageGroup"
+      ],
       "display": [
         {
           "lang": "en-US",
-          "label": "Age group",
+          "label": "Age group"
         },
         {
           "lang": "nl-NL",
-          "label": "Leeftijdsgroep",
+          "label": "Leeftijdsgroep"
         },
         {
           "lang": "de-DE",
-          "label": "Altersgruppe",
-        },
+          "label": "Altersgruppe"
+        }
       ],
       "sd": "allowed"
     },
     {
-      "path": ["ageGroup", "ageOver"],
+      "path": [
+        "ageGroup",
+        "ageOver"
+      ],
       "display": [
         {
           "lang": "en-US",
-          "label": "Age over",
+          "label": "Age over"
         },
         {
           "lang": "nl-NL",
-          "label": "Leeftijd hoger dan",
+          "label": "Leeftijd hoger dan"
         },
         {
           "lang": "de-DE",
-          "label": "Alter über",
-        },
+          "label": "Alter über"
+        }
       ],
       "sd": "allowed"
     }
   ],
-  "schema_uri": "https://raw.githubusercontent.com/Sphereon-Opensource/vc-contexts/refs/heads/master/funke/vct/age-group.json",
+  "schema_uri": "https://raw.githubusercontent.com/Sphereon-Opensource/vc-contexts/refs/heads/master/funke/vct/age-group.json"
 }
