@@ -1,0 +1,91 @@
+{
+  --"vct": "https://betelgeuse.example.com/education_credential",
+  "name": "Age Group",
+  "description": "Verifiable Credential for age group",
+  "display": [
+    {
+      "lang": "en-US",
+      "name": "Age Group",
+      "description": "Verifiable Credential for age group",
+      "rendering": {
+        "simple": {
+          "logo": {
+            "uri": "https://cdn-icons-png.flaticon.com/512/5074/5074122.png",
+            "alt_text": "Age details logo"
+          },
+          "background_color": "#D3D3D3",
+          "text_color": "#FBFBFB"
+        }
+      }
+    },
+    {
+      "lang": "nl-NL",
+      "name": "Leeftijd Groep",
+      "description": "Verifiable Credential voor leeftijdsgroep",
+      "rendering": {
+        "simple": {
+          "logo": {
+            "uri": "https://cdn-icons-png.flaticon.com/512/5074/5074122.png",
+            "alt_text": "Leeftijd details logo"
+          },
+          "background_color": "#D3D3D3",
+          "text_color": "#FBFBFB"
+        }
+      }
+    },
+    {
+      "lang": "de-DE",
+      "name": "Altersgruppe",
+      "description": "Verifiable Credential für altersgruppe",
+      "rendering": {
+        "simple": {
+          "logo": {
+            "uri": "https://cdn-icons-png.flaticon.com/512/5074/5074122.png",
+            "alt_text": "Altersdetails logo"
+          },
+          "background_color": "#D3D3D3",
+          "text_color": "#FBFBFB"
+        }
+      }
+    }
+  ],
+  "claims": [
+    {
+      "path": ["ageGroup"],
+      "display": [
+        {
+          "lang": "en-US",
+          "label": "Age group",
+        },
+        {
+          "lang": "nl-NL",
+          "label": "Leeftijdsgroep",
+        },
+        {
+          "lang": "de-DE",
+          "label": "Altersgruppe",
+        },
+      ],
+      "sd": "allowed"
+    },
+    {
+      "path": ["ageGroup", "ageOver"],
+      "display": [
+        {
+          "lang": "en-US",
+          "label": "Age over",
+        },
+        {
+          "lang": "nl-NL",
+          "label": "Leeftijd hoger dan",
+        },
+        {
+          "lang": "de-DE",
+          "label": "Alter über",
+        },
+      ],
+      "sd": "allowed"
+    }
+  ],
+  "schema_uri": "https://raw.githubusercontent.com/Sphereon-Opensource/vc-contexts/refs/heads/master/funke/vct/age-group.json",
+}
