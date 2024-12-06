@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "vct": {
+      "type": "string"
+    },
+    "ageGroup": {
+      "type": "object",
+      "properties": {
+        "ageOver": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "ageOver"
+      ]
+    },
+    "exp": {
+      "type": "number"
+    },
+    "disclosureFrame": {
+      "type": "object",
+      "properties": {
+        "ageGroup": {
+          "type": "object",
+          "properties": {
+            "_sd": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "required": [
+          "_sd"
+        ]
+      }
+    },
+    "required": [
+      "ageGroup"
+    ]
+  },
+  "required": [
+    "vct",
+    "ageGroup",
+    "exp",
+    "disclosureFrame"
+  ]
+}
