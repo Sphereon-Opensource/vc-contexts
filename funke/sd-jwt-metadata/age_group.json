@@ -1,5 +1,5 @@
 {
-  "vct": "https://raw.githubusercontent.com/Sphereon-Opensource/vc-contexts/refs/heads/master/funke/age-group/vct-schema.json",
+  "vct": "https://raw.githubusercontent.com/Sphereon-Opensource/vc-contexts/refs/heads/master/funke/age-group/age_group.json",
   "name": "Age Group",
   "description": "Verifiable Credential for age group",
   "display": [
@@ -92,5 +92,5 @@
       "sd": "allowed"
     }
   ],
-  "schema_uri": "https://raw.githubusercontent.com/Sphereon-Opensource/vc-contexts/refs/heads/master/funke/vct/age-group.json"
+  "schema_uri": "https://raw.githubusercontent.com/Sphereon-Opensource/vc-contexts/refs/heads/master/funke/age-group/age_group_schema.json"
 }
